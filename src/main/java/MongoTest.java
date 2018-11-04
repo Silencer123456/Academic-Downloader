@@ -8,12 +8,14 @@ import org.bson.Document;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.XML;
+import sun.rmi.runtime.Log;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class MongoTest {
@@ -50,12 +52,38 @@ public class MongoTest {
         collection.insertMany(docs);
     }
 
-    public void addMagToCollection(String json) {
-        MongoClient mongoClient = MongoClients.create();
-        MongoDatabase database = mongoClient.getDatabase("local");
-
+    public void addDblpToCollection(String jsonFile, MongoCollection<Document> collection) {
         List<Document> docs = new ArrayList<>();
-        MongoCollection<Document> collection = database.getCollection("test");
+        try {
+            String json = FileUtils.readFileToString(new File(jsonFile), "utf-8");
+            JSONObject dblp = new JSONObject(json);
+
+            JSONObject dblpRoot = dblp.getJSONObject("dblp");
+
+            Iterator<?> keys = dblpRoot.keys();
+            while(keys.hasNext() ) {
+                String key = (String)keys.next();
+                if ( dblpRoot.get(key) instanceof JSONArray ) {
+                    JSONArray array = new JSONArray(dblpRoot.get(key).toString());
+                    for (int i = 0; i < array.length(); i++) {
+                        JSONObject record = array.getJSONObject(i);
+                        record.put("type", key);    // Add the information about the publication type
+                        docs.add(Document.parse(record.toString()));
+                    }
+
+                    collection.insertMany(docs);
+                    docs.clear();
+                    System.out.println(collection.countDocuments());
+                }
+            }
+        } catch (Exception e) {
+            System.err.println("Key: ");
+            e.printStackTrace();
+        }
+    }
+
+    public void addMagToCollection(String json, MongoCollection<Document> collection) {
+        List<Document> docs = new ArrayList<>();
         try {
             LineIterator fileContents= FileUtils.lineIterator(new File(json), StandardCharsets.UTF_8.name());
             int count = 0;

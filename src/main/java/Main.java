@@ -17,8 +17,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //XmlToJsonConverter xmlToJsonConverter = new XmlToJsonConverter();
-        //xmlToJsonConverter.convertLarge("dblp.xml");
+//        XmlToJsonConverter xmlToJsonConverter = new XmlToJsonConverter();
+//        xmlToJsonConverter.convertLarge("dblp.xml");
 
 //        try {
 //            xmlToJsonConverter.save(json, "output.json");
@@ -27,9 +27,15 @@ public class Main {
 //            e.printStackTrace();
 //        }
 
+
+        MongoClient mongoClient = MongoClients.create();
+        MongoDatabase database = mongoClient.getDatabase("local");
+
+        MongoCollection<Document> collection = database.getCollection("dblp");
+
         MongoTest mongoTest = new MongoTest();
-        mongoTest.addMagToCollection("mag_papers_0.txt");
-
-
+        for (int i = 0; i < 40; i++) {
+            mongoTest.addDblpToCollection("output-" + i + ".json", collection);
+        }
     }
 }

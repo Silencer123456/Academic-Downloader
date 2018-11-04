@@ -1,5 +1,6 @@
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
+import org.apache.commons.lang3.StringUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.XML;
@@ -38,9 +39,10 @@ public class XmlToJsonConverter {
     }
 
     public void convertLarge(String pathToXmlFile) {
-        String jsonString = "";
+        int linesPerFile = 1000000;
+        StringBuilder fileSb = new StringBuilder();
+        String jsonString;
         try {
-            StringBuilder s = new StringBuilder();
             LineIterator fileContents= FileUtils.lineIterator(new File(pathToXmlFile), StandardCharsets.UTF_8.name());
             int counter = 0;
 
@@ -48,15 +50,19 @@ public class XmlToJsonConverter {
             while(fileContents.hasNext()) {
                 counter++;
                 String line = fileContents.nextLine();
-                s.append(line);
+                fileSb.append(line);
 
-                if (counter >= 1000000 && line.startsWith("</")) {
-                    JSONObject xmlJSONObj = XML.toJSONObject(s.toString());
+                if (counter >= linesPerFile && line.startsWith("</") &&  StringUtils.countMatches(line, "<") < 2) {
+                    //if (fileCounter == 0) {
+                        fileSb.append("</dblp>");
+                    //}
+                    JSONObject xmlJSONObj = XML.toJSONObject(fileSb.toString());
                     jsonString = xmlJSONObj.toString(4);
 
                     save(jsonString, "output-" + fileCounter++ + ".json");
 
-                    s.setLength(0);
+                    fileSb = new StringBuilder();
+                    fileSb.append("<dblp>");
                     counter = 0;
                 }
             }
