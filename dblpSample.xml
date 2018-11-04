@@ -1,0 +1,3323 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE dblp SYSTEM "dblp.dtd">
+<dblp>
+    <phdthesis mdate="2016-05-04" key="phd/dk/Heine2010">
+        <author>Carmen Heine</author>
+        <title>Modell zur Produktion von Online-Hilfen.</title>
+        <year>2010</year>
+        <school>Aarhus University</school>
+        <pages>1-315</pages>
+        <isbn>978-3-86596-263-8</isbn>
+        <ee>http://d-nb.info/996064095</ee>
+    </phdthesis>
+    <phdthesis mdate="2017-01-06" key="phd/Hoff2002">
+        <author>Gerd Hoff</author>
+        <title>Ein Verfahren zur thematisch spezialisierten Suche im Web und seine Realisierung im Prototypen HomePageSearch</title>
+        <year>2002</year>
+        <school>University of Trier, Germany</school>
+        <ee>http://ubt.opus.hbz-nrw.de/volltexte/2004/146/</ee>
+        <ee>http://nbn-resolving.de/urn:nbn:de:hbz:385-1468</ee>
+        <ee>http://d-nb.info/971713243</ee>
+    </phdthesis>
+
+    <phdthesis mdate="2015-05-21" key="phd/Seltzer92">
+        <author>Margo I. Seltzer</author>
+        <title>File System Performance and Transaction Support.</title>
+        <year>1992</year>
+        <school>University of California at Berkeley</school>
+        <url>http://db.cs.berkeley.edu/papers/ERL-M93-01.pdf</url>
+    </phdthesis>
+
+    <phdthesis mdate="2016-12-22" key="phd/Rothkugel2002">
+        <author>Steffen Rothkugel</author>
+        <title>Towards Middleware Support for Mobile and Cellular Networks: core problems and illustrated approaches.</title>
+        <year>2002</year>
+        <school>Univ. Trier, FB 4, Informatik</school>
+        <ee>http://ubt.opus.hbz-nrw.de/volltexte/2004/210/</ee>
+        <ee>http://nbn-resolving.de/urn:nbn:de:hbz:385-2109</ee>
+        <ee>http://d-nb.info/971737843</ee>
+    </phdthesis>
+
+    <phdthesis mdate="2002-01-03" key="phd/Chervenak94">
+        <author>Ann L. Chervenak</author>
+        <title>Tertiary Storage: An Evaluation of New Applications</title>
+        <year>1994</year>
+        <school>U. C. Berkeley</school>
+    </phdthesis>
+
+    <phdthesis mdate="2017-01-06" key="phd/Schiwietz93">
+        <author>Michael Schiwietz</author>
+        <title>Speicherung und Anfragebearbeitung komplexer Geo-Objekte</title>
+        <year>1993</year>
+        <pages>1-262</pages>
+        <publisher>Verlag Shaker</publisher>
+        <school>Ludwig Maximilian University of Munich, Germany</school>
+        <isbn>3-86111-723-1</isbn>
+        <ee>http://d-nb.info/931737397</ee>
+    </phdthesis>
+
+
+
+    <phdthesis mdate="2013-04-08" key="phd/Beferull-Lozano02">
+        <author>Baltasar Beferull-Lozano</author>
+        <title>Quantization Design for Structured Overcomplete Expansions.</title>
+        <year>2002</year>
+        <school>University of Southern California</school>
+        <ee>http://www.uv.es/%7Ebalbelo/thesis_BBL.pdf</ee>
+    </phdthesis>
+    <phdthesis mdate="2002-01-03" key="phd/Bohlen94">
+        <author>Michael H. B&ouml;hlen</author>
+        <title>The Temporal Deductive Database System ChronoLog</title>
+        <year>1994</year>
+        <school>Departement Informatik, ETH Z&uuml;rich</school>
+    </phdthesis>
+
+
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Charters06">
+        <author>Stuart M. Charters</author>
+        <title>Virtualising visualisation : a distributed service based approach to visualisation on the Grid.</title>
+        <year>2006</year>
+        <school>Durham University, UK</school>
+        <ee>http://etheses.dur.ac.uk/2659/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.424557</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-24" key="phd/ethos/Wyvill75">
+        <author>Brian Wyvill</author>
+        <title>An Interactive Graphics Language.</title>
+        <year>1975</year>
+        <school>University of Bradford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.478200</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Parsa92">
+        <author>Saeed Parsa</author>
+        <title>Design and specification of a program specification language for engineering applications.</title>
+        <year>1992</year>
+        <school>University of Salford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.357026</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Tse12">
+        <author>Anson Hong Tak Tse</author>
+        <title>Accelerating reconfigurable financial computing.</title>
+        <year>2012</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.555908</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-16" key="phd/ethos/Ang03">
+        <author>Eng Soon Ang</author>
+        <title>Adaption layer enhancement : an investigation of support for independent link ARQ.</title>
+        <year>2003</year>
+        <school>University of Aberdeen, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.288277</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-11-03" key="phd/ethos/Li02d">
+        <author>Qingde Li</author>
+        <title>Registration techniques for computer assisted orthopaedic surgery.</title>
+        <year>2002</year>
+        <school>University of Hull, Kingston upon Hull, UK</school>
+        <ee>http://hydra.hull.ac.uk/resources/hull:13615</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.272472</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-31" key="phd/ethos/Brown08">
+        <author>Christopher Mark Brown</author>
+        <title>Tool support for refactoring Haskell programs.</title>
+        <year>2008</year>
+        <school>University of Kent, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.504651</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-28" key="phd/ethos/Vinter98">
+        <author>Ricky Jay Vinter</author>
+        <title>Evaluating formal specifications : a cognitive approach.</title>
+        <year>1998</year>
+        <school>University of Hertfordshire, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.268048</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-06" key="phd/ethos/Xie06">
+        <author>Dong Xie</author>
+        <title>Fuzzy logic data mining and machine learning and its applications.</title>
+        <year>2006</year>
+        <school>University of Bristol, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.427882</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Ren13a">
+        <author>Jian Ren</author>
+        <title>Search based software project management.</title>
+        <year>2013</year>
+        <school>University College London, UK</school>
+        <ee>http://discovery.ucl.ac.uk/1398915/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.587805</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Langley05">
+        <author>Simon Langley</author>
+        <title>Lazy exact real computation.</title>
+        <year>2005</year>
+        <school>University of Bath, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.418602</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Norrie92">
+        <author>Moira C. Norrie</author>
+        <title>A collection model for data management in object-oriented systems.</title>
+        <year>1992</year>
+        <school>University of Glasgow, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.283835</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-30" key="phd/ethos/Ng95">
+        <author>Kim Chwee Ng</author>
+        <title>Switching control systems and their design automation via genetic algorithms.</title>
+        <year>1995</year>
+        <school>University of Glasgow, UK</school>
+        <ee>http://theses.gla.ac.uk/1556/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.513187</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-10" key="phd/ethos/Richardson84">
+        <author>M. F. Richardson</author>
+        <title>Filing system services for distributed computer systems.</title>
+        <year>1984</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.352005</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-11" key="phd/ethos/Officer72">
+        <author>J. M. Officer</author>
+        <title>Design and implementation of a language for manipulating algebraic formulae.</title>
+        <year>1972</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/6657</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.569970</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-24" key="phd/ethos/Yau11">
+        <author>Cheuk Yin Yau</author>
+        <title>Reusing semantic web data in authoring Wikipedia.</title>
+        <year>2011</year>
+        <school>University of Warwick, Coventry, UK</school>
+        <ee>http://wrap.warwick.ac.uk/55706/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.582194</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-10" key="phd/ethos/Dunne84">
+        <author>Paul E. Dunne</author>
+        <title>Techniques for the analysis of monotone Boolean networks.</title>
+        <year>1984</year>
+        <school>University of Warwick, Coventry, UK</school>
+        <ee>http://wrap.warwick.ac.uk/60767/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.353145</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-26" key="phd/ethos/Madden09">
+        <author>Neil Madden</author>
+        <title>Collaborative narrative generation in persistent virtual environments.</title>
+        <year>2009</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://eprints.nottingham.ac.uk/10802/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.514796</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Sushmita12">
+        <author>Shanu Sushmita</author>
+        <title>Study of result presentation and interaction for aggregated search.</title>
+        <year>2012</year>
+        <school>University of Glasgow, UK</school>
+        <ee>http://theses.gla.ac.uk/3289/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.548980</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-11-21" key="phd/ethos/Proctor16">
+        <author>Timothy James Proctor</author>
+        <title>Ancillas in quantum computation: beyond two-level systems.</title>
+        <year>2016</year>
+        <school>University of Leeds, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.689250</ee>
+        <ee>http://etheses.whiterose.ac.uk/12920/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/Obruca66">
+        <author>Alex Karel Obruca</author>
+        <title>The manipulation of trees and linear graphs within a computer and some applications.</title>
+        <year>1966</year>
+        <school>University of Newcastle upon Tyne, UK</school>
+        <ee>http://hdl.handle.net/10443/2017</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.586725</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-28" key="phd/ethos/Chan98">
+        <author>Pui Shan Chan</author>
+        <title>Support for an integrated approach to program understanding : an application of software visualisation.</title>
+        <year>1998</year>
+        <school>Durham University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.264026</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Lynch05">
+        <author>S. C. Lynch</author>
+        <title>Boris : a framework for multi-agent systems design and deployment.</title>
+        <year>2005</year>
+        <school>Teesside University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.411188</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Agerri06">
+        <author>Rodrigo Agerri</author>
+        <title>Motivational attitudes and norms in a unified agent communication language for open multi-agent systems : a pragmatic approach.</title>
+        <year>2006</year>
+        <school>City University London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.435033</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-09-28" key="phd/ethos/Oyekan12">
+        <author>John Oluwagbemiga Oyekan</author>
+        <title>Visualisation of invisible substances using unicellular swarm intelligence.</title>
+        <year>2012</year>
+        <school>University of Essex, Colchester, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.549289</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-30" key="phd/ethos/Beaumont95">
+        <author>Anthony Joseph Beaumont</author>
+        <title>Scheduling in Or-parallel PROLOG systems.</title>
+        <year>1995</year>
+        <school>University of Bristol, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.281798</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-30" key="phd/ethos/Zhang09b">
+        <author>Zhuopeng Zhang</author>
+        <title>An ontology-based reengineering methodology for service orientation.</title>
+        <year>2009</year>
+        <school>De Montfort University, Leicester, UK</school>
+        <ee>http://hdl.handle.net/2086/2408</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.516049</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Phillips06">
+        <author>Andrew Phillips</author>
+        <title>Specifying and implementing secure mobile applications in the channel ambient system.</title>
+        <year>2006</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.428664</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-09-05" key="phd/ethos/Osman08">
+        <author>Nardine Zoulfikar Osman</author>
+        <title>Runtime verification of deontic and trust models in multiagent interactions.</title>
+        <year>2008</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.660240</ee>
+        <ee>http://hdl.handle.net/1842/21993</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-18" key="phd/ethos/Dheedan12">
+        <author>Amer Abdaladeem Dheedan</author>
+        <title>Distributed on-line safety monitor based on safety assessment model and multi-agent system.</title>
+        <year>2012</year>
+        <school>University of Hull, UK</school>
+        <ee>http://hydra.hull.ac.uk/resources/hull:6065</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.559107</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-15" key="phd/ethos/Guan14">
+        <author>Hui Guan</author>
+        <title>Security-driven software evolution using a model driven approach.</title>
+        <year>2014</year>
+        <school>De Montfort University, Leicester, UK</school>
+        <ee>http://hdl.handle.net/2086/10241</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.620756</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-31" key="phd/ethos/Clark08a">
+        <author>A. D. Clark</author>
+        <title>Abstraction-level functional programming.</title>
+        <year>2008</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.643186</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Sundstedt07">
+        <author>Karin Veronica Sundstedt</author>
+        <title>Rendering and validation of high-fidelity graphics using region-of-interest.</title>
+        <year>2007</year>
+        <school>University of Bristol, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.440273</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-15" key="phd/ethos/Goncalves14">
+        <author>Joao Rafael Landeiro De sousa Goncalves</author>
+        <title>Impact analysis in description logic ontologies.</title>
+        <year>2014</year>
+        <school>University of Manchester, UK</school>
+        <ee>http://www.manchester.ac.uk/escholar/uk-ac-man-scw:220347</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.603238</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Schmidle07">
+        <author>Wolfgang Schmidle</author>
+        <title>A model of neural sequence detectors for sentence processing.</title>
+        <year>2007</year>
+        <school>University of Sunderland, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.439973</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Salifu08">
+        <author>Mohammed Salifu</author>
+        <title>Analysing the requirements for monitoring and switching : a problem-oriented approach.</title>
+        <year>2008</year>
+        <school>Open University, Milton Keynes, UK</school>
+        <ee>http://oro.open.ac.uk/21835/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.489907</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-20" key="phd/ethos/Chesnokov01">
+        <author>Vyacheslav Chesnokov</author>
+        <title>Analogue neuromorphic systems.</title>
+        <year>2001</year>
+        <school>De Montfort University, Leicester, UK</school>
+        <ee>http://hdl.handle.net/2086/10728</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.391899</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Blewitt06">
+        <author>Alex Blewitt</author>
+        <title>HEDGEHOG : automatic verification of design patterns in Java.</title>
+        <year>2006</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/1459</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.561951</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/AlShawi91">
+        <author>Abdalah Al-Shawi</author>
+        <title>Semantic and organization considerations in database conceptual modelling : the Semantic Conceptual Organizational Model (SECOM).</title>
+        <year>1991</year>
+        <school>Aston University, Birmingham, UK</school>
+        <ee>http://eprints.aston.ac.uk/10666/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.544787</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-15" key="phd/ethos/Jones04">
+        <author>Andrew Jones</author>
+        <title>Threats to information systems and effective countermeasures.</title>
+        <year>2004</year>
+        <school>University of South Wales, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.409100</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-24" key="phd/ethos/Tollyfield75">
+        <author>A. J. Tollyfield</author>
+        <title>Aspects of Training and Connection in Some Cellular Learning Networks.</title>
+        <year>1975</year>
+        <school>University of Kent, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.475338</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-28" key="phd/ethos/Xirogiannis98">
+        <author>George Xirogiannis</author>
+        <title>Execution of Prolog by transformations on distributed memory multi-processors.</title>
+        <year>1998</year>
+        <school>Heriot-Watt University, UK</school>
+        <ee>http://hdl.handle.net/10399/639</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.244925</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-10-20" key="phd/ethos/FrancoGaviria13">
+        <author>Mar&iacute;a Auxiliadora Franco Gaviria</author>
+        <title>Principled design of evolutionary learning systems for large scale data mining.</title>
+        <year>2013</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://eprints.nottingham.ac.uk/14299/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.594972</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Albazi89">
+        <author>Adnan Albazi</author>
+        <title>An architecture for expert database system.</title>
+        <year>1989</year>
+        <school>University of Bradford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.264613</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-27" key="phd/ethos/Liu99">
+        <author>Xiaodong Liu</author>
+        <title>Abstraction : a notion for reverse engineering.</title>
+        <year>1999</year>
+        <school>De Montfort University, Leicester, UK</school>
+        <ee>http://hdl.handle.net/2086/4214</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.391686</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-16" key="phd/ethos/Berger03">
+        <author>Martin Friedrich Berger</author>
+        <title>Towards abstractions for distributed systems.</title>
+        <year>2003</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.404798</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-15" key="phd/ethos/Ryder04">
+        <author>Chris Ryder</author>
+        <title>Software measurement for functional programming.</title>
+        <year>2004</year>
+        <school>University of Kent, UK</school>
+        <ee>http://kar.kent.ac.uk/14117/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.418543</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Twycross07">
+        <author>Jamie Paul Twycross</author>
+        <title>Integrated innate and adaptive artificial immune systems applied to process anomaly detection.</title>
+        <year>2007</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.438454</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Boodhoo15">
+        <author>Liam Boodhoo</author>
+        <title>Silicon-based non-volatile nano-electro-mechanical switch with controlled van der Waals force.</title>
+        <year>2015</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/384522/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.678136</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-27" key="phd/ethos/Howes99a">
+        <author>Ashley T. Howes</author>
+        <title>Visual simulation of falling water and plunge pools.</title>
+        <year>1999</year>
+        <school>University of East Anglia, Norwich, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.302075</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-20" key="phd/ethos/OlmosAntillon02">
+        <author>Adriana Teresa Olmos Antillon</author>
+        <title>Detecting underwater man-made objects in unconstrained video images.</title>
+        <year>2002</year>
+        <school>Heriot-Watt University, Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/10399/1172</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.271600</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-18" key="phd/ethos/Corbett12">
+        <author>Andrea J. Corbett</author>
+        <title>Agent-based modelling of transactive memory systems and knowledge processes in agile versus traditional software development teams.</title>
+        <year>2012</year>
+        <school>University of Sheffield, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.575530</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Alhaddad06">
+        <author>Mohammed J. Alhaddad</author>
+        <title>Utilising networked workstations to accelerate database queries.</title>
+        <year>2006</year>
+        <school>University of Essex, Colchester, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.426018</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-09-28" key="phd/ethos/Agboma09">
+        <author>Florence Agboma</author>
+        <title>Quality of experience management in mobile content delivery systems.</title>
+        <year>2009</year>
+        <school>University of Essex, Colchester, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.502143</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-18" key="phd/ethos/Vayanos13">
+        <author>Phebe Vayanos</author>
+        <title>Decision rule approximations for dynamic optimization under uncertainty.</title>
+        <year>2013</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.570069</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-24" key="phd/ethos/Bradley10">
+        <author>Jay Bradley</author>
+        <title>Reinforcement learning for qualitative group behaviours applied to non-player computer game characters.</title>
+        <year>2010</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/4784</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.563065</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-30" key="phd/ethos/Esmaeili95">
+        <author>Javad Esmaeili</author>
+        <title>Parallel implementation of funtional languages using divide-and-conquer strategies.</title>
+        <year>1995</year>
+        <school>University of Salford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.308109</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-30" key="phd/ethos/Worrajiran09">
+        <author>Ponpisut Worrajiran</author>
+        <title>Towards development of brain-computer interface based on point to point movements.</title>
+        <year>2009</year>
+        <school>University of Strathclyde, Glasgow, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.501660</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/ElMihoub06">
+        <author>Tarek A. El-Mihoub</author>
+        <title>New hybrid genetic algorithms for parameter search.</title>
+        <year>2006</year>
+        <school>Nottingham Trent University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.442088</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-05-08" key="phd/ethos/Coppola15">
+        <author>Gregory F. Coppola</author>
+        <title>Iterative parameter mixing for distributed large-margin training of structured predictors for natural language processing.</title>
+        <year>2015</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.656200</ee>
+        <ee>http://hdl.handle.net/1842/10451</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-26" key="phd/ethos/Diamond09">
+        <author>Sara Diamond</author>
+        <title>A tool for collaborative online dialogue : CodeZebraOS.</title>
+        <year>2009</year>
+        <school>University of East London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.523429</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Spray90">
+        <author>Andrew J. C. Spray</author>
+        <title>VLSI parallel processing architectures.</title>
+        <year>1990</year>
+        <school>Bangor University, Wales, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.278108</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Stein14">
+        <author>Sebastian Stein 0003</author>
+        <title>Multi-modal recognition of manipulation activities through visual accelerometer tracking, relational histograms, and user-adaptation.</title>
+        <year>2014</year>
+        <school>University of Dundee, UK</school>
+        <ee>http://hdl.handle.net/10588/61c22b7e-5f02-4f21-a948-bf9e7b497120</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.633748</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-26" key="phd/ethos/Kaewkasi09">
+        <author>Chanwit Kaewkasi</author>
+        <title>An aspect-oriented approach to productivity improvement for a dynamic language using typing concerns.</title>
+        <year>2009</year>
+        <school>University of Manchester, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.511938</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Wissmann12">
+        <author>Jens Wissmann</author>
+        <title>Chord sequence patterns in OWL.</title>
+        <year>2012</year>
+        <school>City University London, UK</school>
+        <ee>http://openaccess.city.ac.uk/1306/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.555449</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Papaharalabos05">
+        <author>Stylianos Papaharalabos</author>
+        <title>Efficient iterative decoding algorithms for turbo and low-density parity-check (LDPC) codes.</title>
+        <year>2005</year>
+        <school>University of Surrey, Guildford, UK</school>
+        <ee>http://epubs.surrey.ac.uk/804383/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.422924</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-25" key="phd/ethos/Nattharith10">
+        <author>Panus Nattharith</author>
+        <title>Mobile robot navigation using a behavioural control strategy.</title>
+        <year>2010</year>
+        <school>University of Newcastle Upon Tyne, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.531752</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-15" key="phd/ethos/Doan14">
+        <author>Thu Trang Doan</author>
+        <title>Meta-APL : a general language for agent programming.</title>
+        <year>2014</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://eprints.nottingham.ac.uk/29286/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.658371</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-05-15" key="phd/ethos/Doolin14">
+        <author>Simon Peter Doolin</author>
+        <title>Usability engineering for embodied conversational agents with older users.</title>
+        <year>2014</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.699935</ee>
+        <ee>http://hdl.handle.net/1842/17967</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/Antonopoulou13">
+        <author>Aikaterini Antonopoulou</author>
+        <title>From digital creations of space to analogous experiences of places : living in second life and acting in Flash Mob.</title>
+        <year>2013</year>
+        <school>University of Newcastle upon Tyne, UK</school>
+        <ee>http://hdl.handle.net/10443/2316</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.618189</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-31" key="phd/ethos/Aoki08">
+        <author>Yohko Aoki</author>
+        <title>Strain transducers for active control.</title>
+        <year>2008</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/66297/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.496115</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Juric05">
+        <author>Radmila Juric</author>
+        <title>Component based software architecture for interoperable databases and extensions to the results.</title>
+        <year>2005</year>
+        <school>Brunel University London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.428342</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-26" key="phd/ethos/Campbell09">
+        <author>Glenn G. Campbell</author>
+        <title>MediaHub, Bayesian Decision-making in an Intelligent Multimodal Distributed Platform Hub.</title>
+        <year>2009</year>
+        <school>Ulster University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.503741</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Huang06d">
+        <author>Zhiheng Huang</author>
+        <title>Rule model simplification.</title>
+        <year>2006</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/904</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.561926</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Hughes05">
+        <author>Alex Hughes</author>
+        <title>Shape analysis and pose from contour.</title>
+        <year>2005</year>
+        <school>University of York, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.428406</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-30" key="phd/ethos/Ritchie09a">
+        <author>Graham R. S. Ritchie</author>
+        <title>Modelling the transition to complex, culturally transmitted communication.</title>
+        <year>2009</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/3060</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.562369</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-06" key="phd/ethos/Baradez05">
+        <author>Marc-Olivier M. P. Baradez</author>
+        <title>Image processing analysis of stem cell antigens.</title>
+        <year>2005</year>
+        <school>Kingston University, Kingston upon Thames, London, UK</school>
+        <ee>http://eprints.kingston.ac.uk/20292/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.421910</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-06" key="phd/ethos/CrespoSandoval05">
+        <author>J. Crespo-Sandoval</author>
+        <title>Condition monitoring of outdoor insulation using artificial intelligence techniques.</title>
+        <year>2005</year>
+        <school>Cardiff University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.527122</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-22" key="phd/ethos/Alekeish11">
+        <author>Khaled Alekeish</author>
+        <title>Design and performance study of algorithms for consensus in sparse, mobile ad-hoc networks.</title>
+        <year>2011</year>
+        <school>University of Newcastle Upon Tyne, UK</school>
+        <ee>http://hdl.handle.net/10443/1237</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.556015</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-08-15" key="phd/ethos/Shardlow15">
+        <author>Matthew Shardlow</author>
+        <title>Lexical simplification: optimising the pipeline.</title>
+        <year>2015</year>
+        <school>University of Manchester, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.677740</ee>
+        <ee>https://www.research.manchester.ac.uk/portal/en/theses/lexical-simplification-optimising-the-pipeline(8b56374a-bc5e-4d4d-80bc-2c2f01eed319).html</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-16" key="phd/ethos/Schenk03">
+        <author>Veit U. B. Schenk</author>
+        <title>Visual identification of fine surface incisions.</title>
+        <year>2003</year>
+        <school>University of Oxford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.275374</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Taylor15">
+        <author>Phillip Taylor</author>
+        <title>Data mining of vehicle telemetry data.</title>
+        <year>2015</year>
+        <school>University of Warwick, Coventry, UK</school>
+        <ee>http://wrap.warwick.ac.uk/77645/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.682926</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Hajdarevic08">
+        <author>Kemal Hajdarevic</author>
+        <title>Early detection of network problems using existing network indicators : local agent based approach.</title>
+        <year>2008</year>
+        <school>Leeds Beckett University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.446160</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-21" key="phd/ethos/Tan01">
+        <author>Jiacheng Tan</author>
+        <title>The use of virtual environments in internet-based teleoperation.</title>
+        <year>2001</year>
+        <school>De Montfort University, Leicester, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.393500</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/AguilarSoto06">
+        <author>Armando Aguilar-Soto</author>
+        <title>Fixed-priority scheduling algorithms with multiple objectives in hard real-time systems.</title>
+        <year>2006</year>
+        <school>University of York, UK</school>
+        <ee>http://etheses.whiterose.ac.uk/11057/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.485332</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-02" key="phd/ethos/Anjulan07">
+        <author>Arasanathan Anjulan</author>
+        <title>Intelligent content based video retrieval based on local region tracks.</title>
+        <year>2007</year>
+        <school>University of Bristol, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.445827</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Bass92">
+        <author>Andrew P. Bass</author>
+        <title>The transformational implementation of JSD process specifications via finite automata representation.</title>
+        <year>1992</year>
+        <school>Aston University, Birmingham, UK</school>
+        <ee>http://eprints.aston.ac.uk/10678/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.334713</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-07-31" key="phd/ethos/Cheng17">
+        <author>Wenqian Cheng</author>
+        <title>Statistical data mining for Sina Weibo, a Chinese micro-blog: sentiment modelling and randomness reduction for topic modelling.</title>
+        <year>2017</year>
+        <school>London School of Economics, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.706177</ee>
+        <ee>http://etheses.lse.ac.uk/3488/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Reed06">
+        <author>David G. Reed</author>
+        <title>Benchmarking object-relational database systems for adaptive design.</title>
+        <year>2006</year>
+        <school>University of Sunderland, Tyne and Wear, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.425906</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Markall13">
+        <author>Graham R. Markall</author>
+        <title>Multilayered abstractions for partial differential equations.</title>
+        <year>2013</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://hdl.handle.net/10044/1/22175</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.646917</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-04" key="phd/ethos/How94">
+        <author>K. Y. How</author>
+        <title>A processing framework for temporal analysis and its applications to instructional texts.</title>
+        <year>1994</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.652625</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Dixon06">
+        <author>Lucas Dixon</author>
+        <title>A proof planning framework for Isabelle.</title>
+        <year>2006</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/1250</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.561936</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-23" key="phd/ethos/Grant00a">
+        <author>Calum A. M. Grant</author>
+        <title>Software visualization in Prolog.</title>
+        <year>2000</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.599612</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Yang05">
+        <author>Chao-Yang Yang</author>
+        <title>Formative evaluation method for website interface development.</title>
+        <year>2005</year>
+        <school>Coventry University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.436297</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Pears05">
+        <author>Simon Pears</author>
+        <title>Using mobility and exception handling to achieve mobile agents that survive server crash failures.</title>
+        <year>2005</year>
+        <school>Durham University, UK</school>
+        <ee>http://etheses.dur.ac.uk/2387/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.411694</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/FarresCasals92">
+        <author>Jorge Farres-Casals</author>
+        <title>Verification in ASL and related specification languages.</title>
+        <year>1992</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/14828</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.650508</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-04" key="phd/ethos/Trevor94">
+        <author>Jonathan James Trevor</author>
+        <title>Infrastructure support for CSCW.</title>
+        <year>1994</year>
+        <school>Lancaster University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.296968</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-27" key="phd/ethos/Rana99">
+        <author>Omer Farooq Rana</author>
+        <title>From neural algorithms to parallel architectures : a practical design methodology.</title>
+        <year>1999</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.314055</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Aryanpour15">
+        <author>Amir Aryanpour</author>
+        <title>An interoperability framework for security policy languages.</title>
+        <year>2015</year>
+        <school>University of Bedfordshire, UK</school>
+        <ee>http://hdl.handle.net/10547/603532</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.681070</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Clutterbuck86">
+        <author>D. L. Clutterbuck</author>
+        <title>The validation and verification of low-level code.</title>
+        <year>1986</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.373570</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-24" key="phd/ethos/Camilleri10">
+        <author>Andrew Camilleri</author>
+        <title>Composition integrity framework : an integrity monitor for aspect-oriented programs.</title>
+        <year>2010</year>
+        <school>Lancaster University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.556629</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-01-09" key="phd/ethos/Geiss11">
+        <author>Johanna Gei&szlig;</author>
+        <title>Latent semantic sentence clustering for multi-document summarization.</title>
+        <year>2011</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.609761</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Maguire13">
+        <author>Joseph Maguire</author>
+        <title>An ecologically valid evaluation of an observation-resilient graphical authentication mechanism.</title>
+        <year>2013</year>
+        <school>University of Glasgow, UK</school>
+        <ee>http://theses.gla.ac.uk/4708/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.586822</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-06-18" key="phd/ethos/Pignotti10">
+        <author>Edoardo Pignotti</author>
+        <title>Enhancing workflow with a semantic description of scientific intent.</title>
+        <year>2010</year>
+        <school>University of Aberdeen, UK</school>
+        <ee>http://digitool.abdn.ac.uk/webclient/DeliveryManager?pid=153287</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.531898</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-05-08" key="phd/ethos/Pfister15">
+        <author>Tomas Pfister</author>
+        <title>Advancing human pose and gesture recognition.</title>
+        <year>2015</year>
+        <school>University of Oxford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.658521</ee>
+        <ee>http://ora.ox.ac.uk/objects/uuid:64e5b1be-231e-49ed-b385-e87db6dbeed8</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-28" key="phd/ethos/Virginas98">
+        <author>Botond Istvan Virginas</author>
+        <title>The use of knowledge-based systems techniques for risk assessment.</title>
+        <year>1998</year>
+        <school>University of Portsmouth, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.285525</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/MiradaSilva96">
+        <author>Miguel Leit&atilde;o Bignolas Mira da Silva</author>
+        <title>Models of higher-order, type-safe, distributed computation over autonomous persistent object stores.</title>
+        <year>1996</year>
+        <school>University of Glasgow, UK</school>
+        <ee>http://theses.gla.ac.uk/2689/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.535307</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/Weir14">
+        <author>Daryl Weir</author>
+        <title>Modelling uncertainty in touch interaction.</title>
+        <year>2014</year>
+        <school>University of Glasgow, UK</school>
+        <ee>http://theses.gla.ac.uk/6318/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.646722</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-20" key="phd/ethos/Grewal01">
+        <author>Ratvinder Singh Grewal</author>
+        <title>A visual metaphor-based tool for a search-engine user interface.</title>
+        <year>2001</year>
+        <school>University of Wolverhampton, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.272531</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-27" key="phd/ethos/Spratling99">
+        <author>Michael W. Spratling</author>
+        <title>Artificial ontogenesis : a connectionist model of development.</title>
+        <year>1999</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.662325</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-09-05" key="phd/ethos/Su15">
+        <author>Pan Su</author>
+        <title>Intelligent system based assessments of academic journals.</title>
+        <year>2015</year>
+        <school>Aberystwyth University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.667778</ee>
+        <ee>http://hdl.handle.net/2160/30222</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-05-15" key="phd/ethos/Cutting16">
+        <author>David Cutting</author>
+        <title>Enhancing legacy software system analysis by combining behavioural and semantic information sources.</title>
+        <year>2016</year>
+        <school>University of East Anglia, Norwich, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.699598</ee>
+        <ee>https://ueaeprints.uea.ac.uk/61542/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Goose97">
+        <author>Stuart Goose</author>
+        <title>A framework for distributed open hypermedia.</title>
+        <year>1997</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/250829/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.241980</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-23" key="phd/ethos/Harvey11a">
+        <author>Carlo Harvey</author>
+        <title>Modality based perception for selective rendering.</title>
+        <year>2011</year>
+        <school>University of Warwick, Coventry, UK</school>
+        <ee>http://wrap.warwick.ac.uk/51765/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.560302</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Message13">
+        <author>Robin Henry Message</author>
+        <title>Programming for humans : a new paradigm for domain-specific languages.</title>
+        <year>2013</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.608120</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Workman07">
+        <author>Stephen J. H. Workman</author>
+        <title>AMPM Adaptive multipoint multimedia over wireless internet protocol networks.</title>
+        <year>2007</year>
+        <school>Ulster University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.529585</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Moreton07">
+        <author>Timothy Daniel Moreton</author>
+        <title>A wide-area file system for migrating virtual machines.</title>
+        <year>2007</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.613167</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Goulev05">
+        <author>Petar Goulev</author>
+        <title>An investigation into the use of AffectiveWare in interactive computer applications.</title>
+        <year>2005</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.420617</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Kay97">
+        <author>Roderick Kay</author>
+        <title>Text analysis, summarising and retrieval.</title>
+        <year>1997</year>
+        <school>University of Salford, City of Salford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.360435</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Jarvis97">
+        <author>Peter A. Jarvis</author>
+        <title>Integration of classical and model-based technologies for the automated synthesis of plans.</title>
+        <year>1997</year>
+        <school>University of Brighton, UK</school>
+        <ee>http://eprints.brighton.ac.uk/15559/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.362220</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-01-31" key="phd/ethos/Wojcik14">
+        <author>Marcin W&oacute;jcik</author>
+        <title>Hardware fabrics for cryptographic algorithms.</title>
+        <year>2014</year>
+        <school>University of Bristol, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.681560</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-25" key="phd/ethos/Ludwig10">
+        <author>Michel Ludwig</author>
+        <title>Resolution-based methods for linear-time temporal logics : with applications to formal verification.</title>
+        <year>2010</year>
+        <school>University of Liverpool, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.533985</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Reutter13">
+        <author>Juan L. Reutter</author>
+        <title>Graph patterns : structure, query answering and applications in schema mappings and formal language theory.</title>
+        <year>2013</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/8931</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.615394</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-20" key="phd/ethos/Daabaj01">
+        <author>Yousef H. Daabaj</author>
+        <title>An evaluation of the use of task analysis in the development of interactive multimedia systems.</title>
+        <year>2001</year>
+        <school>University of Salford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.366022</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-11-21" key="phd/ethos/Coetzee17">
+        <author>Peter Coetzee</author>
+        <title>Platforms for deployment of scalable on- and off-line data analytics.</title>
+        <year>2017</year>
+        <school>University of Warwick, Coventry, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.723136</ee>
+        <ee>http://wrap.warwick.ac.uk/91214/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Knowles05">
+        <author>Henry D. Knowles</author>
+        <title>Watermarking for attack classification.</title>
+        <year>2005</year>
+        <school>University of Bristol, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.412303</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-30" key="phd/ethos/Pierce09">
+        <author>Kenneth George Pierce</author>
+        <title>Enhancing the usability of rely-guarantee conditions for atomicity refinement.</title>
+        <year>2009</year>
+        <school>University of Newcastle Upon Tyne, UK</school>
+        <ee>http://hdl.handle.net/10443/686</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.514470</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-09-28" key="phd/ethos/Kwon17">
+        <author>Hyosun Kwon</author>
+        <title>From ephemerality to delicacy: applying delicacy in the design space of digital gifting.</title>
+        <year>2017</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.748198</ee>
+        <ee>http://eprints.nottingham.ac.uk/46705/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Ituma05">
+        <author>Afam Nnanna Ituma</author>
+        <title>An exploratory study of the internal career orientation and the external career pattern of information technology workers in Nigeria.</title>
+        <year>2005</year>
+        <school>Brunel University London, UK</school>
+        <ee>http://bura.brunel.ac.uk/handle/2438/5400</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.422451</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Lee91">
+        <author>Hee Young Lee</author>
+        <title>An expert system for career management within an army structure.</title>
+        <year>1991</year>
+        <school>University of Hertfordshire, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.303407</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Zou05">
+        <author>Ying Zou</author>
+        <title>A mobile diabetes management and internetworking system.</title>
+        <year>2005</year>
+        <school>Kingston University, Kingston upon Thames, London, UK</school>
+        <ee>http://eprints.kingston.ac.uk/20316/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.555042</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Romero85">
+        <author>Miren Bego&ntilde;a Albizuri-Romero</author>
+        <title>Graphical creation of structured programs.</title>
+        <year>1985</year>
+        <school>University of Sussex, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.371200</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-10-17" key="phd/ethos/Hmad15">
+        <author>Nadia Fathe Hmad</author>
+        <title>Deep neural network acoustic models for multi-dialect Arabic speech recognition.</title>
+        <year>2015</year>
+        <school>Nottingham Trent University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.686909</ee>
+        <ee>http://irep.ntu.ac.uk/id/eprint/27934/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-30" key="phd/ethos/Blyth95">
+        <author>Andrew John Charles Blyth</author>
+        <title>Enterprise modelling and its application to organisational requirements, capture and definition.</title>
+        <year>1995</year>
+        <school>Newcastle University, Newcastle upon Tyne, UK</school>
+        <ee>http://hdl.handle.net/10443/1954</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.282825</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-04" key="phd/ethos/DeWaal94">
+        <author>David Andre De Waal</author>
+        <title>Analysis and transformation of proof procedures.</title>
+        <year>1994</year>
+        <school>University of Bristol, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.240493</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Finniear91">
+        <author>Lee John Finniear</author>
+        <title>An intelligent geographic information system for design.</title>
+        <year>1991</year>
+        <school>Loughborough University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.260914</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/TranThanh12">
+        <author>Long Tran-Thanh</author>
+        <title>Budget-limited multi-armed bandits.</title>
+        <year>2012</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/337660/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.560535</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-25" key="phd/ethos/Herhut10">
+        <author>Stephan Herhut</author>
+        <title>Auxiliary computations : a framework for a step-wise, non-disruptive introduction of static guarantees to untyped programs using partial evaluation techniques.</title>
+        <year>2010</year>
+        <school>University of Hertfordshire, UK</school>
+        <ee>http://hdl.handle.net/2299/4722</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.573224</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-28" key="phd/ethos/Luz98">
+        <author>Saturnino Luz</author>
+        <title>Tableau algorithms for categorial deduction and parsing.</title>
+        <year>1998</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/512</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.561726</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-27" key="phd/ethos/Baker99">
+        <author>R. J. Baker</author>
+        <title>Multi-channel bulk queueing systems.</title>
+        <year>1999</year>
+        <school>Swansea University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.636016</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-08-15" key="phd/ethos/Asif16">
+        <author>Waqar Asif</author>
+        <title>Critical node identifcation for accessing network vulnerability: a necessary consideration.</title>
+        <year>2016</year>
+        <school>City University London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.705011</ee>
+        <ee>http://openaccess.city.ac.uk/16398/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-24" key="phd/ethos/Buchstaller10">
+        <author>Dominic Buchstaller</author>
+        <title>Robust stability and performance for multiple model switched adaptive control.</title>
+        <year>2010</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/72334/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.509545</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-24" key="phd/ethos/Yeung76">
+        <author>H. K. F. Yeung</author>
+        <title>Type-Checking Systems with Particular Applications to Functional Languages.</title>
+        <year>1976</year>
+        <school>Royal Holloway, University of London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.478301</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-25" key="phd/ethos/Thar10">
+        <author>M. S. Thar</author>
+        <title>Intention-oriented programming model for autonomic cloud applications.</title>
+        <year>2010</year>
+        <school>Liverpool John Moores University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.526921</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-10" key="phd/ethos/McKeever84">
+        <author>J. D. M. McKeever</author>
+        <title>Application of recent programming techniques to data processing.</title>
+        <year>1984</year>
+        <school>Queen's University Belfast, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.373535</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-30" key="phd/ethos/Yang09b">
+        <author>Su Yang</author>
+        <title>PC-grade parallel processing and hardware acceleration for large-scale data analysis.</title>
+        <year>2009</year>
+        <school>University of Huddersfield, UK</school>
+        <ee>http://eprints.hud.ac.uk/8754/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.523760</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Proctor88">
+        <author>R. A. Proctor</author>
+        <title>Creative aspects of problem solving : A critical analysis and explanation of the attribution of meaning during interactive problem solving sessions, sequences and simulations.</title>
+        <year>1988</year>
+        <school>University of Manchester, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.480503</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-06-18" key="phd/ethos/Mohamed07">
+        <author>Rehman Mohamed</author>
+        <title>Supporting members of online communities through the use of visualisations.</title>
+        <year>2007</year>
+        <school>University of Strathclyde, Glasgow, UK</school>
+        <ee>http://oleg.lib.strath.ac.uk/R/?func=dbin-jump-full&amp;object_id=11812</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.443134</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-18" key="phd/ethos/Elliott12">
+        <author>Philip T. Elliott</author>
+        <title>Higher-order central-moment neural architectures.</title>
+        <year>2012</year>
+        <school>University of Reading, Berkshire, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.577779</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-25" key="phd/ethos/Henderson10">
+        <author>Eric Kord Henderson</author>
+        <title>A text representation language for contextual and distributional processing.</title>
+        <year>2010</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.608403</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-24" key="phd/ethos/Frazer10">
+        <author>Alex Frazer</author>
+        <title>Towards better gameplay in educational computer games.</title>
+        <year>2010</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/172421/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.533324</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/vanDeursenHazelhoffRoelfze14">
+        <author>Nicole van Deursen Hazelhoff Roelfze</author>
+        <title>HI-Risk : a socio-technical method for the identification and monitoring of healthcare information security risks in the information society.</title>
+        <year>2014</year>
+        <school>Edinburgh Napier University, UK</school>
+        <ee>http://researchrepository.napier.ac.uk/6921/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.615491</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/deSilva15">
+        <author>Nadish de Silva</author>
+        <title>Contextuality and noncommutative geometry in quantum mechanics.</title>
+        <year>2015</year>
+        <school>University of Oxford, UK</school>
+        <ee>http://ora.ox.ac.uk/objects/uuid:1ca8995d-b562-426a-ab89-afab3a18dda2</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.658528</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-11-21" key="phd/ethos/Tsiros16">
+        <author>Augoustinos Tsiros</author>
+        <title>A multidimensional sketching interface for visual interaction with corpus-based concatenative sound synthesis.</title>
+        <year>2016</year>
+        <school>Edinburgh Napier University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.725116</ee>
+        <ee>http://researchrepository.napier.ac.uk/463438</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Reutemann08">
+        <author>Ralf Dieter Reutemann</author>
+        <title>Worst-case execution time analysis for dynamic branch predictors.</title>
+        <year>2008</year>
+        <school>University of York, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.444749</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-30" key="phd/ethos/Brady95">
+        <author>Patrick Brady</author>
+        <title>Internal representation and biological plausibility in an artificial neural network.</title>
+        <year>1995</year>
+        <school>Brunel University London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.311273</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Muthuraman05">
+        <author>Sethuraman Muthuraman</author>
+        <title>The evolution of modular artificial neural networks.</title>
+        <year>2005</year>
+        <school>Robert Gordon University, Aberdeen, UK</school>
+        <ee>http://hdl.handle.net/10059/284</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.412304</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-04-14" key="phd/ethos/Mohammed17">
+        <author>Goran Abdulrahman Mohammed</author>
+        <title>Modelling, analysis and feedback control design for upright standing sways.</title>
+        <year>2017</year>
+        <school>University of Hull, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.733011</ee>
+        <ee>http://hydra.hull.ac.uk/resources/hull:16073</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Gorry15">
+        <author>Thomas Gorry</author>
+        <title>Navigation problems for autonomous robots in distributed environments.</title>
+        <year>2015</year>
+        <school>University of Liverpool, UK</school>
+        <ee>http://repository.liv.ac.uk/2013959/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.658113</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Song12a">
+        <author>Chunlin Song</author>
+        <title>A robust region-adaptive digital image watermarking system.</title>
+        <year>2012</year>
+        <school>Liverpool John Moores University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.570721</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-02" key="phd/ethos/West08">
+        <author>Kristopher West</author>
+        <title>Novel techniques for audio music classification and search.</title>
+        <year>2008</year>
+        <school>University of East Anglia, Norwich, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.492940</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-11-21" key="phd/ethos/Isawhe17">
+        <author>Boladale M. Isawhe</author>
+        <title>Sequential frame synchronization over binary symmetrical channel for unequally distributed data symbols.</title>
+        <year>2017</year>
+        <school>Kingston University, London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.724321</ee>
+        <ee>http://eprints.kingston.ac.uk/39287/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-06-20" key="phd/ethos/Goli15">
+        <author>Mehdi Goli</author>
+        <title>Autonomic behavioural framework for structural parallelism over heterogeneous multi-core systems.</title>
+        <year>2015</year>
+        <school>Robert Gordon University, Aberdeen, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.702194</ee>
+        <ee>http://hdl.handle.net/10059/1373</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-09-05" key="phd/ethos/Anegekuh15">
+        <author>Louis Anegekuh</author>
+        <title>Video content-based QoE prediction for HEVC encoded videos delivered over IP networks.</title>
+        <year>2015</year>
+        <school>University of Plymouth, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.686025</ee>
+        <ee>http://hdl.handle.net/10026.1/3377</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Jacques96">
+        <author>Richard David Jacques</author>
+        <title>The nature of engagement and its role in hypermedia evaluation and design.</title>
+        <year>1996</year>
+        <school>London South Bank University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.336369</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-11" key="phd/ethos/Farmer66">
+        <author>A. R. Farmer</author>
+        <title>The behaviour of S.C.R. amplifiers in closed loop control systems.</title>
+        <year>1966</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.598936</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Clark91">
+        <author>Peter Clark</author>
+        <title>A model of argumentation and its application in a cooperative expert system.</title>
+        <year>1991</year>
+        <school>University of Strathclyde, Glasgow, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.357178</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Rangaswami96">
+        <author>Roopa Rangaswami</author>
+        <title>A cost analysis for a higher-order parallel programming model.</title>
+        <year>1996</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/747</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.561679</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Thearle92">
+        <author>R. W. Thearle</author>
+        <title>The integration of tools in software engineering environments.</title>
+        <year>1992</year>
+        <school>University of Kent, Canterbury, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.304957</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-11" key="phd/ethos/Haynes72">
+        <author>Richard John Haynes</author>
+        <title>A computer aid for management.</title>
+        <year>1972</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.643878</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-09-28" key="phd/ethos/RiveraIllingworth09">
+        <author>Fernando Rivera-Illingworth</author>
+        <title>An embedded-agent approach to activity recognition in domestic ambient intelligent environments.</title>
+        <year>2009</year>
+        <school>University of Essex, Colchester, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.502218</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Hatem12">
+        <author>Wadhah Amer Hatem</author>
+        <title>Comparing the effectiveness of face to face and computer mediated collaboration in design.</title>
+        <year>2012</year>
+        <school>Cardiff University, UK</school>
+        <ee>http://orca.cf.ac.uk/37337/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.567364</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Heess12">
+        <author>Nicolas M. O. Heess</author>
+        <title>Learning generative models of mid-level structure in natural images.</title>
+        <year>2012</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/5866</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.563696</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-08" key="phd/ethos/Ahmed04">
+        <author>Shakil Ahmed</author>
+        <title>Strategies for partitioning data in association rule mining.</title>
+        <year>2004</year>
+        <school>University of Liverpool, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.415661</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-18" key="phd/ethos/Zakaria13">
+        <author>Nur Haryani Zakaria</author>
+        <title>Exploring human factors issues &amp; possible countermeasures in password authentication.</title>
+        <year>2013</year>
+        <school>University of Newcastle Upon Tyne, UK</school>
+        <ee>http://hdl.handle.net/10443/1810</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.576786</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Loughran08">
+        <author>Neil Loughran</author>
+        <title>Framed aspects-A generative variability approach for aspect-oriented programming.</title>
+        <year>2008</year>
+        <school>Lancaster University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.536014</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Wood15">
+        <author>Alex L. Wood</author>
+        <title>Energy- and context-aware approaches to aiding human memory.</title>
+        <year>2015</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/382959/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.675142</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Alsufyani15">
+        <author>Abdulmajeed Alsufyani</author>
+        <title>Detecting salient information using RSVP and the P3 : computational and EEG explorations.</title>
+        <year>2015</year>
+        <school>University of Kent, UK</school>
+        <ee>http://kar.kent.ac.uk/50751/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.668254</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-07-21" key="phd/ethos/Croft14">
+        <author>David Croft 0002</author>
+        <title>Semi-automated co-reference identification in digital humanities collections.</title>
+        <year>2014</year>
+        <school>De Montfort University, UK</school>
+        <ee>http://hdl.handle.net/2086/10491</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.630019</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Schanzenberger06">
+        <author>Anja Schanzenberger</author>
+        <title>System design for periodic data production management.</title>
+        <year>2006</year>
+        <school>Middlesex University, London, UK</school>
+        <ee>http://eprints.mdx.ac.uk/10697/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.566702</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-11-21" key="phd/ethos/Athakravi15">
+        <author>Duangtida Athakravi</author>
+        <title>Inductive logic programming using bounded hypothesis space.</title>
+        <year>2015</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.689117</ee>
+        <ee>http://hdl.handle.net/10044/1/33798</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-15" key="phd/ethos/Hajiesmaeili14">
+        <author>Maryam Hajiesmaeili</author>
+        <title>Semi-automatic segmentation of the hippocampus using magnetic resonance images.</title>
+        <year>2014</year>
+        <school>Kingston University, Kingston upon Thames, London, UK</school>
+        <ee>http://eprints.kingston.ac.uk/30606/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.638849</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-08" key="phd/ethos/Felici04">
+        <author>Massimo Felici</author>
+        <title>Observational models of requirements evolution.</title>
+        <year>2004</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/10895</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.650828</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Kirke15">
+        <author>Lisa Kirke</author>
+        <title>Data mining for heart failure : an investigation into the challenges in real life clinical datasets.</title>
+        <year>2015</year>
+        <school>University of Hull, Kingston upon Hull, UK</school>
+        <ee>http://hydra.hull.ac.uk/resources/hull:13385</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.686237</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-11-21" key="phd/ethos/UlHaque17">
+        <author>Hafiz Mahfooz Ul Haque</author>
+        <title>A formal approach to modelling and verification of context-aware systems.</title>
+        <year>2017</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.722444</ee>
+        <ee>http://eprints.nottingham.ac.uk/39185/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Wang89">
+        <author>Baoyu Wang</author>
+        <title>An architecture for domain based distributed systems management.</title>
+        <year>1989</year>
+        <school>Lancaster University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.277397</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Burton91">
+        <author>Alan Burton</author>
+        <title>A sublanguage of English for database query in a managerial environment.</title>
+        <year>1991</year>
+        <school>University of Sunderland, Tyne and Wear, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.292236</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-10" key="phd/ethos/Talamas78">
+        <author>L. R. Talamas</author>
+        <title>Design of Cross-Correlation Flow Control Loops.</title>
+        <year>1978</year>
+        <school>University of Bradford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.474501</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-26" key="phd/ethos/Maley00">
+        <author>David Maley</author>
+        <title>Mind the gap : formalising the development of scientific software.</title>
+        <year>2000</year>
+        <school>Queen's University Belfast, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.314126</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Hardaker12">
+        <author>Claire Hardaker</author>
+        <title>Trolling in computer-mediated communication : impoliteness, desception and manipulation online.</title>
+        <year>2012</year>
+        <school>Lancaster University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.661132</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-30" key="phd/ethos/Tsatsaris09">
+        <author>Charalambos Tsatsaris</author>
+        <title>Evolutionary and genetic strategies for topology optimization of frameworks : pareto-comparisons and hybrid methods.</title>
+        <year>2009</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/156975/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.523209</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Han96">
+        <author>Yong-Fei Han</author>
+        <title>Fast algorithms for public key cryptography.</title>
+        <year>1996</year>
+        <school>Royal Holloway, University of London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.244544</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-26" key="phd/ethos/Kildal09">
+        <author>Johan Kildal</author>
+        <title>Developing an interactive overview for non-visual exploration of tabular numerical information.</title>
+        <year>2009</year>
+        <school>University of Glasgow, UK</school>
+        <ee>http://theses.gla.ac.uk/626/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.495369</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Lambert05">
+        <author>Tanya Lambert</author>
+        <title>Databases for concatenative text-to-speech synthesis systems : unit selection and knowledge-based approach.</title>
+        <year>2005</year>
+        <school>University of East Anglia, Norwich, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.421192</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Grashoff96">
+        <author>Henning Grashoff</author>
+        <title>A rational scheme for conflict detection and resolution in distributed collaborative environments for enterprise integration.</title>
+        <year>1996</year>
+        <school>City University London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.319671</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Nellis12">
+        <author>Adam Nellis</author>
+        <title>Towards meta-evolution via embodiment in artificial chemistries.</title>
+        <year>2012</year>
+        <school>University of York, UK</school>
+        <ee>http://etheses.whiterose.ac.uk/3701/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.568125</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-15" key="phd/ethos/Dinakenyane14">
+        <author>Otlhapile Dinakenyane</author>
+        <title>SIQXC : Schema Independent Queryable XML Compression for smartphones.</title>
+        <year>2014</year>
+        <school>University of Sheffield, UK</school>
+        <ee>http://etheses.whiterose.ac.uk/7184/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.628607</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-25" key="phd/ethos/McNamara10">
+        <author>Liam McNamara</author>
+        <title>Colocation aware content sharing in urban transport.</title>
+        <year>2010</year>
+        <school>University College London, UK</school>
+        <ee>http://discovery.ucl.ac.uk/19727/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.564907</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-27" key="phd/ethos/Mayley99">
+        <author>Giles Mayley</author>
+        <title>Explorations into interactions between learning and evolution using genetic algorithms.</title>
+        <year>1999</year>
+        <school>University of Sussex, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.302253</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-09-17" key="phd/ethos/Bailey02">
+        <author>Christopher Bailey 0001</author>
+        <title>An agent-based framework to support adaptive hypermedia.</title>
+        <year>2002</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/257248/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.252460</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-07-31" key="phd/ethos/Abraham16">
+        <author>Goodhead Tomvie Abraham</author>
+        <title>Group-based parallel multi-scheduling methods for grid computing.</title>
+        <year>2016</year>
+        <school>Coventry University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.705036</ee>
+        <ee>http://curve.coventry.ac.uk/open/items/9e286ae2-da74-42c9-978b-65d5eb3e3857/1</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-16" key="phd/ethos/Morris03">
+        <author>Andrew Justin Morris</author>
+        <title>A visual approach to the development of spatial quaery languages for geographic information systems.</title>
+        <year>2003</year>
+        <school>University of South Wales, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.289419</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.488730</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-10" key="phd/ethos/Stevens81">
+        <author>S. Stevens</author>
+        <title>COBOL report program generation by macro processor.</title>
+        <year>1981</year>
+        <school>Open University, Milton Keynes, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.290208</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-07-31" key="phd/ethos/Corbin82">
+        <author>Nigel Corbin</author>
+        <title>Quantum corrections in the computer simulation of simple liquids and solids.</title>
+        <year>1982</year>
+        <school>Royal Holloway, University of London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.704510</ee>
+        <ee>http://repository.royalholloway.ac.uk/items/8bf8a37d-c1f3-4ffc-b4b3-61ef0fd7c597/1/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Tunmer90">
+        <author>Michael Luke Tunmer</author>
+        <title>Combinator reduction on networks of small processors.</title>
+        <year>1990</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.358850</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Reid13">
+        <author>Daniel Reid</author>
+        <title>Human identification using soft biometrics.</title>
+        <year>2013</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/352293/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.572752</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-28" key="phd/ethos/Allen98">
+        <author>Stephen Peter Allen</author>
+        <title>Algebraic specifications : investigations concerning their effectiveness for testing software, their quality and maintenance.</title>
+        <year>1998</year>
+        <school>University of Liverpool, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.266490</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Wakeling90">
+        <author>David Wakeling</author>
+        <title>Linearity and laziness.</title>
+        <year>1990</year>
+        <school>University of York, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.276503</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-04" key="phd/ethos/Goguen94">
+        <author>Healfdene Goguen</author>
+        <title>A typed operational semantics for type theory.</title>
+        <year>1994</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/405</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.561636</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-15" key="phd/ethos/Khan14">
+        <author>Adnan Mujahid Khan</author>
+        <title>Algorithms for breast cancer grading in digital histopathology images.</title>
+        <year>2014</year>
+        <school>University of Warwick, Coventry, UK</school>
+        <ee>http://wrap.warwick.ac.uk/66024/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.635592</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-03-08" key="phd/ethos/Chueke16">
+        <author>Jacques Chueke</author>
+        <title>Perceptible affordances and feedforward for gestural interfaces : assessing effectiveness of gesture acquisition with unfamiliar interactions.</title>
+        <year>2016</year>
+        <school>City University London, UK</school>
+        <ee>http://openaccess.city.ac.uk/15762/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.697556</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Liu12a">
+        <author>Jung-Hua Liu</author>
+        <title>Colourful life in cyberspace and the real world : visualising urban wi-fi landscapes with web colours.</title>
+        <year>2012</year>
+        <school>University of Leeds, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.590311</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Rankov08">
+        <author>Vladan Rankov</author>
+        <title>Object recognition by evolutionary search.</title>
+        <year>2008</year>
+        <school>Leeds Beckett University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.492874</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-08-01" key="phd/ethos/Huang13a">
+        <author>Xuan Huang 0003</author>
+        <title>Mobile security and smart systems: multi-modal biometric authentication on mobile devices.</title>
+        <year>2013</year>
+        <school>Abertay University, Dundee, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.704556</ee>
+        <ee>https://rke.abertay.ac.uk/en/studentTheses/ce2dec7b-fdcf-496e-81c4-fb98d0033c78</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-01-09" key="phd/ethos/Breffit77">
+        <author>I. M. Breffit</author>
+        <title>Operating system simulations for parallel processes and parallel processors.</title>
+        <year>1977</year>
+        <school>Open University, Milton Keynes, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.479929</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Green08">
+        <author>Christopher Duncan Green</author>
+        <title>Polyethylene-montmorillonite nanocomposites.</title>
+        <year>2008</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/65001/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.494539</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-11-03" key="phd/ethos/Tran16">
+        <author>Son Tran</author>
+        <title>Representation decomposition for knowledge extraction and sharing using restricted Boltzmann machines.</title>
+        <year>2016</year>
+        <school>City University London, UK</school>
+        <ee>http://openaccess.city.ac.uk/14423/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.683775</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-23" key="phd/ethos/Alfawzan00">
+        <author>Thalaya Alfawzan</author>
+        <title>The design and implementation of RRCGS (Retargetable RISC Code Generator for the SUIF).</title>
+        <year>2000</year>
+        <school>University of Sussex, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.310239</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Sampaio96">
+        <author>F&aacute;bio Ferrentini Sampaio</author>
+        <title>LinkIt : design, development and testing of a semi-quantitative computer modelling tool.</title>
+        <year>1996</year>
+        <school>University College London, UK</school>
+        <ee>http://eprints.ioe.ac.uk/21636/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.243610</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-04-19" key="phd/ethos/Xiong15">
+        <author>Jie Xiong 0001</author>
+        <title>Pushing the limits of indoor localization in today's Wi-Fi networks.</title>
+        <year>2015</year>
+        <school>University College London, UK</school>
+        <ee>http://discovery.ucl.ac.uk/1470731/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.674671</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-09-05" key="phd/ethos/Aldosary15">
+        <author>Saad Aldosary</author>
+        <title>Investigation of multimodal template-free biometric techniques and associated exception handling.</title>
+        <year>2015</year>
+        <school>University of Kent, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.682140</ee>
+        <ee>http://kar.kent.ac.uk/54805/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-05" key="phd/ethos/Debbage93">
+        <author>Mark Debbage</author>
+        <title>Reliable communication protocols for high-performance computing.</title>
+        <year>1993</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.358359</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/Alghamdi13">
+        <author>Turki Mohammed K. Alghamdi</author>
+        <title>Policy-based runtime tracking for e-learning environments.</title>
+        <year>2013</year>
+        <school>De Montfort University, Leicester, UK</school>
+        <ee>http://hdl.handle.net/2086/8237</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.571349</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-08-15" key="phd/ethos/Li12f">
+        <author>Lin Li 0026</author>
+        <title>Data quality and data cleaning in database applications.</title>
+        <year>2012</year>
+        <school>Edinburgh Napier University, UK</school>
+        <ee>http://researchrepository.napier.ac.uk/5788/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.556228</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-09-05" key="phd/ethos/Alkadeki15">
+        <author>Hatm Alkadeki</author>
+        <title>Performance modeling and enhancement for IEEE 802.11 DCF.</title>
+        <year>2015</year>
+        <school>Coventry University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.681440</ee>
+        <ee>http://curve.coventry.ac.uk/open/items/0e5c2b52-5932-4cf5-8a3d-f76aedaa5e94/1</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-26" key="phd/ethos/Hua09a">
+        <author>Yahan Hua</author>
+        <title>Sensorless control of surface mounted permanent magnet machine using fundamental PWM excitation.</title>
+        <year>2009</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://eprints.nottingham.ac.uk/11999/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.517767</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-21" key="phd/ethos/Economou01">
+        <author>Daphne Economou</author>
+        <title>The role of virtual actors in collaborative virtual environments for learning.</title>
+        <year>2001</year>
+        <school>Manchester Metropolitan University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.392215</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Haik05">
+        <author>Eyal Haik</author>
+        <title>Navigation in non-immersive virtual environments.</title>
+        <year>2005</year>
+        <school>University of Hertfordshire, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.421274</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-15" key="phd/ethos/Karran04">
+        <author>Tereska Karran</author>
+        <title>CODA : complex organic distributed architecture for intelligent reconfiguration of mobile networks.</title>
+        <year>2004</year>
+        <school>University of Westminster, London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.433846</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-27" key="phd/ethos/Burd99">
+        <author>Elizabeth L. Burd</author>
+        <title>A method for re-modularising legacy code.</title>
+        <year>1999</year>
+        <school>Durham University, UK</school>
+        <ee>http://etheses.dur.ac.uk/4478/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.313494</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Ismail08">
+        <author>Hany A. Abdelghaffar Ismail</author>
+        <title>Citizens' readiness for e-government in developing countries.</title>
+        <year>2008</year>
+        <school>Middlesex University, London, UK</school>
+        <ee>http://eprints.mdx.ac.uk/7998/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.548898</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-26" key="phd/ethos/Docherty09">
+        <author>Liam S. Docherty</author>
+        <title>An ontology based approach towards a universal description framework for home networks.</title>
+        <year>2009</year>
+        <school>University of Stirling, UK</school>
+        <ee>http://hdl.handle.net/1893/2014</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.513883</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-11" key="phd/ethos/Salih74">
+        <author>A. A. Salih</author>
+        <title>The optimal control of a slab reheating furnace.</title>
+        <year>1974</year>
+        <school>Swansea University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.638753</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-24" key="phd/ethos/Chaudhery76">
+        <author>M. M. Chaudhery</author>
+        <title>The Design of a General Purpose Microprogrammable Emulator.</title>
+        <year>1976</year>
+        <school>University of Glasgow, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.451262</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-04" key="phd/ethos/Coombes94">
+        <author>Andrew Charles Coombes</author>
+        <title>A pragmatic approach to the formal development of safety-critical systems.</title>
+        <year>1994</year>
+        <school>University of York, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.259882</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Pathan13">
+        <author>Kamran Taj Pathan</author>
+        <title>Activity awareness in context-aware systems using software sensors.</title>
+        <year>2013</year>
+        <school>University of Leicester, UK</school>
+        <ee>http://hdl.handle.net/2381/28379</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.593690</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-30" key="phd/ethos/Robb09">
+        <author>Michael Stuart Alexander Robb</author>
+        <title>Interactive real-time three-dimensional visualisation of virtual textiles.</title>
+        <year>2009</year>
+        <school>Heriot-Watt University, Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/10399/2310</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.527041</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Turpin90">
+        <author>Heather Jane Turpin</author>
+        <title>The branch-and-bound paradigm.</title>
+        <year>1990</year>
+        <school>University of East Anglia, Norwich, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.277168</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/MartinsdaSilvaRocha13">
+        <author>Paula Cristina Martins da Silva Rocha</author>
+        <title>Medium-term planning in deregulated energy markets with decision rules.</title>
+        <year>2013</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.570055</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-10-17" key="phd/ethos/Ang09">
+        <author>Su-Shin Ang</author>
+        <title>Handling data dependent memory accesses in custom hardware applications.</title>
+        <year>2009</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.501122</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Wonnacott96">
+        <author>Paul Wonnacott</author>
+        <title>Run-time support for parallel discrete event simulation languages.</title>
+        <year>1996</year>
+        <school>University of Exeter, Devon, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.337741</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Almuhareb06">
+        <author>Abdulrahman Almuhareb</author>
+        <title>Attributes in lexical acquisition.</title>
+        <year>2006</year>
+        <school>University of Essex, Colchester, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.428974</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Maunder07">
+        <author>Robert G. Maunder</author>
+        <title>Irregular variable length coding.</title>
+        <year>2007</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/264980/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.443048</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-16" key="phd/ethos/Phillips03">
+        <author>Peter Phillips</author>
+        <title>A novel pre-processing method for the classification of data by a neural network.</title>
+        <year>2003</year>
+        <school>University of Sussex, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.398348</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-31" key="phd/ethos/Du08">
+        <author>Xinli Du</author>
+        <title>High redundancy actuator.</title>
+        <year>2008</year>
+        <school>Loughborough University, UK</school>
+        <ee>https://dspace.lboro.ac.uk/2134/12232</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.506202</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Lu97">
+        <author>Jiang Lu</author>
+        <title>Modelling and managing temporal data and its application to Scottish dental information systems.</title>
+        <year>1997</year>
+        <school>Robert Gordon University, Aberdeen, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.360989</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-09-05" key="phd/ethos/Sivanathan14">
+        <author>Aparajithan Sivanathan</author>
+        <title>Ubiquitous Integration and Temporal Synchronisation (UbilTS) framework: a solution for building complex multimodal data capture and interactive systems.</title>
+        <year>2014</year>
+        <school>Heriot-Watt University, Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.681952</ee>
+        <ee>http://hdl.handle.net/10399/2833</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Craw91">
+        <author>Susan Craw</author>
+        <title>Automating the refinement of knowledge based systems.</title>
+        <year>1991</year>
+        <school>University of Aberdeen, UK</school>
+        <ee>http://digitool.abdn.ac.uk/R/HD92H7Y45DXA1NNDIY5EI3EUAQI5YMR765FLX2QD72UP7248K9-05479?func=collections-result&amp;collection_id=1455</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.281498</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Carver90">
+        <author>Glenn D. Carver</author>
+        <title>Meteorological modelling on the ICL distributed array processor and other parallel computers.</title>
+        <year>1990</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/13335</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.258724</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Steele96">
+        <author>Andrew D. Steele</author>
+        <title>Time constrained qualitative model-based parameter identification.</title>
+        <year>1996</year>
+        <school>Heriot-Watt University, Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/10399/735</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.307269</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-02" key="phd/ethos/Zhan08a">
+        <author>Beibei Zhan</author>
+        <title>Learning crowd dynamics using computer vision.</title>
+        <year>2008</year>
+        <school>Kingston University, Kingston upon Thames, London, UK</school>
+        <ee>http://eprints.kingston.ac.uk/20302/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.497589</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-07-31" key="phd/ethos/Gao16">
+        <author>Jiangning Gao</author>
+        <title>3D face recognition using multicomponent feature extraction from the nasal region and its environs.</title>
+        <year>2016</year>
+        <school>University of Bath, Somerset, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.707585</ee>
+        <ee>http://opus.bath.ac.uk/55046/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-05-19" key="phd/ethos/Liu08">
+        <author>Qiang Liu 0011</author>
+        <title>Data Reuse and Parallelism in Hardware Compilation.</title>
+        <year>2008</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.506018</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-15" key="phd/ethos/Moore04">
+        <author>David Robert Moore</author>
+        <title>Real-time sound spatialization, software design and implementation.</title>
+        <year>2004</year>
+        <school>University of Sheffield, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.419633</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Theissler13">
+        <author>Andreas Theissler</author>
+        <title>Detecting anomalies in multivariate time series from automotive systems.</title>
+        <year>2013</year>
+        <school>Brunel University London, UK</school>
+        <ee>http://bura.brunel.ac.uk/handle/2438/7902</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.589982</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Griffiths05">
+        <author>Jon-Paul Griffiths</author>
+        <title>The object and connection space approach to opening up hypermedia structure.</title>
+        <year>2005</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.419163</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Keenan15">
+        <author>Anthony Keenan</author>
+        <title>Orchestrating high performance services : theory and practice.</title>
+        <year>2015</year>
+        <school>Queen's University Belfast, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.679249</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-10" key="phd/ethos/Moore77">
+        <author>E. L. Moore</author>
+        <title>Functional Analysis and Identification of Separable Nonlinear Control Systems Using Pseudorandom Inputs.</title>
+        <year>1977</year>
+        <school>University of Surrey, Guildford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.466087</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-04-14" key="phd/ethos/Filaretti15">
+        <author>Daniele Filaretti</author>
+        <title>An executable formal semantics of PHP with applications to program analysis.</title>
+        <year>2015</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.695529</ee>
+        <ee>http://hdl.handle.net/10044/1/40922</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/Rathgeber14">
+        <author>Florian Rathgeber</author>
+        <title>Productive and efficient computational science through domain-specific abstractions.</title>
+        <year>2014</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://hdl.handle.net/10044/1/18911</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.634123</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-24" key="phd/ethos/Fritzsche10">
+        <author>Mathias Fritzsche</author>
+        <title>Performance related decision support for process modelling.</title>
+        <year>2010</year>
+        <school>Queen's University Belfast, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.527932</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-20" key="phd/ethos/Alkoot01">
+        <author>Fuad M. Alkoot</author>
+        <title>Design of multiple classifier systems.</title>
+        <year>2001</year>
+        <school>University of Surrey, Guildford, UK</school>
+        <ee>http://epubs.surrey.ac.uk/2264/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.365152</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Roberts07">
+        <author>Mark Jonathan Roberts</author>
+        <title>Social laws for multi-agent systems.</title>
+        <year>2007</year>
+        <school>University of Liverpool, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.437526</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/Gill13a">
+        <author>Mandeep Singh Gill</author>
+        <title>Application of software engineering methodologies to the development of mathematical biological models.</title>
+        <year>2013</year>
+        <school>University of Oxford, UK</school>
+        <ee>http://ora.ox.ac.uk/objects/uuid:35178f3a-7951-4f1c-aeab-390cdd622b05</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.604408</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-24" key="phd/ethos/Durbin10">
+        <author>Chris Durbin 0001</author>
+        <title>Aspects of internet security - identity management and online child protection.</title>
+        <year>2010</year>
+        <school>Loughborough University, UK</school>
+        <ee>https://dspace.lboro.ac.uk/2134/8548</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.543230</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Mansfield13">
+        <author>Shane Mansfield</author>
+        <title>The mathematical structure of non-locality and contextuality.</title>
+        <year>2013</year>
+        <school>University of Oxford, UK</school>
+        <ee>http://ora.ox.ac.uk/objects/uuid:394bb375-db3f-4a12-bdd8-cd1ab5809573</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.604412</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-03-13" key="phd/ethos/Evans90">
+        <author>David R. Evans 0001</author>
+        <title>An investigation of parallelism in document processing.</title>
+        <year>1990</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.277878</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-20" key="phd/ethos/Valente02">
+        <author>Patrick Valente</author>
+        <title>Software tools for the investigation of stochastic programming problems.</title>
+        <year>2002</year>
+        <school>Brunel University London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.270578</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-31" key="phd/ethos/Asemota08">
+        <author>Ekhorutomwen Asemota</author>
+        <title>The development of a generic, extensible and web-enabled cbr architecture.</title>
+        <year>2008</year>
+        <school>University of the West of Scotland, Hamilton, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.446040</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Smith06a">
+        <author>Kevin I. Smith</author>
+        <title>A study of simulated annealing techniques for multi-objective optimisation.</title>
+        <year>2006</year>
+        <school>University of Exeter, Devon, UK</school>
+        <ee>http://hdl.handle.net/10036/3176</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.436420</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-15" key="phd/ethos/Jantjies14">
+        <author>Mmaki Jantjies</author>
+        <title>A framework to support multilingual mobile learning : a South African perspective.</title>
+        <year>2014</year>
+        <school>University of Warwick, Coventry, UK</school>
+        <ee>http://wrap.warwick.ac.uk/62611/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.618948</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Kilpatrick85">
+        <author>P. L. Kilpatrick</author>
+        <title>An application of parallelism to compilation.</title>
+        <year>1985</year>
+        <school>Queen's University Belfast, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.373538</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-24" key="phd/ethos/Wilson75">
+        <author>J. M. Wilson</author>
+        <title>Methods of (0-1) Integer Programming Using a Boolean Approach.</title>
+        <year>1975</year>
+        <school>University of Sussex, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.477633</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/GarciaConstantino13">
+        <author>Matias Garcia-Constantino</author>
+        <title>On the use of text classification methods for text summarisation.</title>
+        <year>2013</year>
+        <school>University of Liverpool, UK</school>
+        <ee>http://repository.liv.ac.uk/12957/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.592804</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/Dunphy13">
+        <author>Paul Michael Dunphy</author>
+        <title>Usable, secure and deployable graphical passwords.</title>
+        <year>2013</year>
+        <school>University of Newcastle upon Tyne, UK</school>
+        <ee>http://hdl.handle.net/10443/2149</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.594535</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Magklaras12">
+        <author>Georgios Vasilios Magklaras</author>
+        <title>An insider misuse threat detection and prediction language.</title>
+        <year>2012</year>
+        <school>University of Plymouth, UK</school>
+        <ee>http://hdl.handle.net/10026.1/1024</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.564494</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-01-09" key="phd/ethos/Alsaeedi16">
+        <author>Abdullah Alsaeedi</author>
+        <title>Improving software model inference by combining state merging and Markov models.</title>
+        <year>2016</year>
+        <school>University of Sheffield, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.690159</ee>
+        <ee>http://etheses.whiterose.ac.uk/13645/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-11" key="phd/ethos/Tomlinson74">
+        <author>J. C. Tomlinson</author>
+        <title>A High-level Computer Language for Modelling Structured Data.</title>
+        <year>1974</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.475363</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-10" key="phd/ethos/Shneier79">
+        <author>Michael O. Shneier</author>
+        <title>Object representation and recognition in machine vision.</title>
+        <year>1979</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.661879</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-16" key="phd/ethos/Singh03">
+        <author>Harjit Singh</author>
+        <title>A correlation framework for continuous user authentication using data mining.</title>
+        <year>2003</year>
+        <school>University of Plymouth, UK</school>
+        <ee>http://hdl.handle.net/10026.1/572</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.412298</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-11-03" key="phd/ethos/Peng16">
+        <author>Xuan Peng</author>
+        <title>Isogeometric boundary element methods for linear elastic fracture mechanics.</title>
+        <year>2016</year>
+        <school>Cardiff University, UK</school>
+        <ee>http://orca.cf.ac.uk/92543/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.690921</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/McPheeters90">
+        <author>Craig McPheeters</author>
+        <title>Isosurface modelling of soft objects in computer graphics.</title>
+        <year>1990</year>
+        <school>Bournemouth University, Poole, UK</school>
+        <ee>http://eprints.bournemouth.ac.uk/426/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.238439</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-02" key="phd/ethos/Canavan07">
+        <author>Brian Canavan</author>
+        <title>An evaluation of factors affecting students' use of a web-based engineering resource.</title>
+        <year>2007</year>
+        <school>University of Glasgow, UK</school>
+        <ee>http://theses.gla.ac.uk/2238/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.525527</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-10-17" key="phd/ethos/Khambhammettu10">
+        <author>Hemanth Khambhammettu</author>
+        <title>Enforcing complex policies in RBAC.</title>
+        <year>2010</year>
+        <school>Royal Holloway, University of London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.529765</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-25" key="phd/ethos/Zhu10">
+        <author>Meng Zhu</author>
+        <title>Cross-modal semantic-associative labelling, indexing and retrieval of multimodal data.</title>
+        <year>2010</year>
+        <school>University of Reading, UK</school>
+        <ee>http://centaur.reading.ac.uk/24828/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.533783</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-05-08" key="phd/ethos/Mitropoulou15">
+        <author>Konstantina Mitropoulou</author>
+        <title>Performance optimizations for compiler-based error detection.</title>
+        <year>2015</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.656209</ee>
+        <ee>http://hdl.handle.net/1842/10473</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-24" key="phd/ethos/Blackwood10">
+        <author>Graeme W. Blackwood</author>
+        <title>Lattice rescoring methods for statistical machine translation.</title>
+        <year>2010</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.596707</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-06-18" key="phd/ethos/Neumuller04">
+        <author>Mathias Neum&uuml;ller</author>
+        <title>Grouping of semistructured data for efficient query processing.</title>
+        <year>2004</year>
+        <school>University of Strathclyde, Glasgow, UK</school>
+        <ee>http://oleg.lib.strath.ac.uk/R/?func=dbin-jump-full&amp;object_id=21744</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.423878</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-26" key="phd/ethos/MacKinneyRomero00">
+        <author>Ren&eacute; MacKinney-Romero</author>
+        <title>Inducing rules in a higher-order framework.</title>
+        <year>2000</year>
+        <school>University of Bristol, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.247199</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-16" key="phd/ethos/Withall03">
+        <author>Mark S. Withall</author>
+        <title>The evolution of complete software systems.</title>
+        <year>2003</year>
+        <school>Loughborough University, UK</school>
+        <ee>https://dspace.lboro.ac.uk/2134/3594</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.515618</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-31" key="phd/ethos/Falconer08">
+        <author>E. Falconer</author>
+        <title>The development of a conceptual model for supporting a case based reasoning selection among decision support systems for strategic asset allocation.</title>
+        <year>2008</year>
+        <school>University of the West of Scotland, Hamilton, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.556185</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-30" key="phd/ethos/Hartley95">
+        <author>Joseph Alan Hartley</author>
+        <title>A neural network and rule based system application in water demand forecasting.</title>
+        <year>1995</year>
+        <school>Brunel University London, UK</school>
+        <ee>http://bura.brunel.ac.uk/handle/2438/7867</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.282849</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-11-03" key="phd/ethos/Guo16">
+        <author>Shijing Guo</author>
+        <title>Systematic analysis and modelling of diagnostic errors in medicine.</title>
+        <year>2016</year>
+        <school>City University London, UK</school>
+        <ee>http://openaccess.city.ac.uk/15125/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.690984</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-11" key="phd/ethos/Rooney70">
+        <author>G. T. Rooney</author>
+        <title>Synthesis of geared Linkages as Function generators.</title>
+        <year>1970</year>
+        <school>Open University, Milton Keynes, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.470938</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Butterworth97">
+        <author>Richard Butterworth</author>
+        <title>A formal framework for the specification of interactive systems.</title>
+        <year>1997</year>
+        <school>Loughborough University, UK</school>
+        <ee>https://dspace.lboro.ac.uk/2134/14163</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.389538</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-25" key="phd/ethos/Nurse10">
+        <author>Jason R. C. Nurse</author>
+        <title>A business-oriented framework for enhancing web services security for e-business.</title>
+        <year>2010</year>
+        <school>University of Warwick, Coventry, UK</school>
+        <ee>http://wrap.warwick.ac.uk/34605/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.532146</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Kopanas91">
+        <author>Vassilios Kopanas</author>
+        <title>Relational database support for a rule based approach to information systems.</title>
+        <year>1991</year>
+        <school>University of Manchester, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.358052</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-15" key="phd/ethos/Bozas14">
+        <author>Konstantinos Bozas</author>
+        <title>Scalable image retrieval based on hand drawn sketches and their semantic information.</title>
+        <year>2014</year>
+        <school>Queen Mary University of London, UK</school>
+        <ee>http://qmro.qmul.ac.uk/jspui/handle/123456789/8828</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.658671</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Jiang15">
+        <author>Junyi Jiang</author>
+        <title>Optical wireless communication systems.</title>
+        <year>2015</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/387239/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.680710</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-16" key="phd/ethos/Abdullah03a">
+        <author>Sophiana Chua Abdullah</author>
+        <title>Student modelling by adaptive testing : a knowledge-based approach.</title>
+        <year>2003</year>
+        <school>University of Kent, UK</school>
+        <ee>http://kar.kent.ac.uk/13956/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.270683</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-05-25" key="phd/ethos/Rendell14">
+        <author>Paul W. Rendell</author>
+        <title>Turing machine universality of the game of life.</title>
+        <year>2014</year>
+        <school>University of the West of England, Bristol, UK</school>
+        <ee>http://eprints.uwe.ac.uk/22323/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.589121</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-02" key="phd/ethos/Deora07">
+        <author>Vikas Deora</author>
+        <title>Quality of service support for service discovery and selection in service oriented computing environment.</title>
+        <year>2007</year>
+        <school>Cardiff University, UK</school>
+        <ee>http://orca.cf.ac.uk/54702/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.584114</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-26" key="phd/ethos/Pedro00">
+        <author>Paulo Sergio Martins Pedro</author>
+        <title>Schedulability of mode changes in flexible real-time distributed systems.</title>
+        <year>2000</year>
+        <school>University of York, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.310982</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Arora06">
+        <author>Gurleen Kaur Arora</author>
+        <title>A framework for cascading payment and content exchange within P2P systems.</title>
+        <year>2006</year>
+        <school>Liverpool John Moores University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.436568</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-01-09" key="phd/ethos/Dong16">
+        <author>Jing Dong</author>
+        <title>Sparse analysis model based dictionary learning and signal reconstruction.</title>
+        <year>2016</year>
+        <school>University of Surrey, Guildford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.690426</ee>
+        <ee>http://epubs.surrey.ac.uk/811095/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-20" key="phd/ethos/Cheng02">
+        <author>H. Cheng</author>
+        <title>Modelling aggregation motivated interactions in descriptive text generation.</title>
+        <year>2002</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.642791</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-04-20" key="phd/ethos/Chen98">
+        <author>Xin Chen 0015</author>
+        <title>Towards an integrated methodology for the development of hybrid information systems.</title>
+        <year>1998</year>
+        <school>University of Sunderland, Tyne and Wear, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.263000</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Mehdi13">
+        <author>Wasan Mehdi</author>
+        <title>Structure evaluation of computer human animation quality.</title>
+        <year>2013</year>
+        <school>University of Bedfordshire, UK</school>
+        <ee>http://hdl.handle.net/10547/322822</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.606679</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Baumberg96">
+        <author>Adam Baumberg</author>
+        <title>Learning deformable models for tracking human motion.</title>
+        <year>1996</year>
+        <school>University of Leeds, UK</school>
+        <ee>http://etheses.whiterose.ac.uk/1266/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.528709</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/Reps14">
+        <author>Jenna Marie Reps</author>
+        <title>Detecting adverse drug reactions in the general practice healthcare database.</title>
+        <year>2014</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://eprints.nottingham.ac.uk/14360/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.635102</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-02-15" key="phd/ethos/Pinheiro17">
+        <author>Rodrigo Lankaites Pinheiro</author>
+        <title>A computational study and heuristic algorithms for the home healthcare scheduling and routing problem.</title>
+        <year>2017</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.728635</ee>
+        <ee>http://eprints.nottingham.ac.uk/48124/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Pu08">
+        <author>Jianjun Pu</author>
+        <title>Software evolution through UML-models extraction.</title>
+        <year>2008</year>
+        <school>De Montfort University, Leicester, UK</school>
+        <ee>http://hdl.handle.net/2086/4764</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.522951</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-18" key="phd/ethos/Xue13">
+        <author>Tao Xue</author>
+        <title>Theory and implementation of coercive subtyping.</title>
+        <year>2013</year>
+        <school>Royal Holloway, University of London, UK</school>
+        <ee>http://repository.royalholloway.ac.uk/items/b6594048-74d4-0764-7238-281461fc2e83/7/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.589533</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-07" key="phd/ethos/Matthews85">
+        <author>Stephen G. Matthews 0002</author>
+        <title>Metric domains for completeness.</title>
+        <year>1985</year>
+        <school>University of Warwick, Coventry, UK</school>
+        <ee>http://wrap.warwick.ac.uk/60775/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.370640</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-26" key="phd/ethos/Reinhard00">
+        <author>Erik Reinhard</author>
+        <title>Scheduling and data management for parallel ray tracing.</title>
+        <year>2000</year>
+        <school>University of Bristol, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.302169</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-22" key="phd/ethos/Arabo11">
+        <author>Abdullahi Arabo</author>
+        <title>User-centred and context-aware identity management in mobile ad-hoc networks.</title>
+        <year>2011</year>
+        <school>Liverpool John Moores University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.555600</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-17" key="phd/ethos/Konstantinidis13">
+        <author>Athanasios Konstantinidis</author>
+        <title>Source-to-source compilation of loop programs for manycore processors.</title>
+        <year>2013</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://hdl.handle.net/10044/1/23981</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.650669</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-20" key="phd/ethos/Quist02">
+        <author>Stig Nygaard Quist</author>
+        <title>MPLS controlled deflection routing for packet switched optical networks.</title>
+        <year>2002</year>
+        <school>University of Strathclyde, Glasgow, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.273344</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Whysall91">
+        <author>Peter John Whysall</author>
+        <title>Object oriented specification and refinement.</title>
+        <year>1991</year>
+        <school>University of York, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.304413</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Prosser12">
+        <author>Bryan James Prosser</author>
+        <title>Person re-Identification over distributed spaces and time.</title>
+        <year>2012</year>
+        <school>Queen Mary University of London, UK</school>
+        <ee>http://qmro.qmul.ac.uk/jspui/handle/123456789/2513</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.551676</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-09-05" key="phd/ethos/Ahmed14">
+        <author>Mahmud Ahmed</author>
+        <title>The use of advanced soft computing for machinery condition monitoring.</title>
+        <year>2014</year>
+        <school>University of Huddersfield, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.666442</ee>
+        <ee>http://eprints.hud.ac.uk/id/eprint/25504/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-20" key="phd/ethos/Devin02">
+        <author>Vincent E. Devin</author>
+        <title>An interactive talking head.</title>
+        <year>2002</year>
+        <school>University of Leeds, UK</school>
+        <ee>http://etheses.whiterose.ac.uk/1310/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.529695</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-11" key="phd/ethos/Foster63">
+        <author>K. Foster</author>
+        <title>The static and dynamic flow forces in a particular spool valve configuration.</title>
+        <year>1963</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.599139</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-24" key="phd/ethos/Colley10">
+        <author>John Colley</author>
+        <title>Guarded atomic actions and refinement in a system-on-chip development flow : bridging the specification gap with Event-B.</title>
+        <year>2010</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/171695/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.533327</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/Ali13">
+        <author>Mona Ali</author>
+        <title>Identifying and comparing opportunistic and social networks.</title>
+        <year>2013</year>
+        <school>Cardiff University, UK</school>
+        <ee>http://orca.cf.ac.uk/47313/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.571745</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-26" key="phd/ethos/Malleo09">
+        <author>Daniele Malleo</author>
+        <title>Impedance spectroscopy for cellular and biomolecular analysis.</title>
+        <year>2009</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/66388/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.500791</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-06" key="phd/ethos/Yang06a">
+        <author>Jingtao Yang</author>
+        <title>Document flow model : a formal notation for modelling asynchronous web services.</title>
+        <year>2006</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.427364</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-20" key="phd/ethos/Schut02">
+        <author>Martinus Cornelis Schut</author>
+        <title>Intention reconsideration.</title>
+        <year>2002</year>
+        <school>University of Liverpool, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.272685</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-31" key="phd/ethos/Esoul08">
+        <author>O. Esoul</author>
+        <title>VMX-rootkit : implementing malware with hardware virtual machine extensions.</title>
+        <year>2008</year>
+        <school>University of Salford, UK</school>
+        <ee>http://usir.salford.ac.uk/26667/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.575040</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-08-01" key="phd/ethos/Huang07">
+        <author>Xuan Huang 0002</author>
+        <title>Semantic agent support for managed open information retrieval services.</title>
+        <year>2007</year>
+        <school>Queen Mary University of London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.444552</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-16" key="phd/ethos/Afshan13">
+        <author>Sheeva Afshan</author>
+        <title>Search-based generation of human readable test data and its impact on human oracle costs.</title>
+        <year>2013</year>
+        <school>University of Sheffield, UK</school>
+        <ee>http://etheses.whiterose.ac.uk/4337/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.581631</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Ibrahim12">
+        <author>Mina I. S. Ibrahim</author>
+        <title>Wavelet based approaches for detection and recognition in ear biometrics.</title>
+        <year>2012</year>
+        <school>University of Southampton, UK</school>
+        <ee>http://eprints.soton.ac.uk/340675/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.561593</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-23" key="phd/ethos/Parker11">
+        <author>Aaron Mark Parker</author>
+        <title>Designing communication systems that work.</title>
+        <year>2011</year>
+        <school>University of Bristol, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.683941</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-09-04" key="phd/ethos/Zhang13d">
+        <author>Long Zhang 0006</author>
+        <title>Advanced methods for neural modelling and applications.</title>
+        <year>2013</year>
+        <school>Queen's University Belfast, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.603304</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-11-03" key="phd/ethos/Bekhet16">
+        <author>Saddam Bekhet</author>
+        <title>Signature-based videos' visual similarity detection and measurement.</title>
+        <year>2016</year>
+        <school>University of Lincoln, UK</school>
+        <ee>http://eprints.lincoln.ac.uk/23701/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.692527</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Krishna15">
+        <author>Renan Krishna</author>
+        <title>Constructing runtime models with bigraphs to address ubiquitous computing service composition volatility.</title>
+        <year>2015</year>
+        <school>University of Sussex, UK</school>
+        <ee>http://sro.sussex.ac.uk/54282/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.647954</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Voss07">
+        <author>Alexander Voss</author>
+        <title>Corealisation : a radical respecification of the working division of labour in systems development.</title>
+        <year>2007</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/1764</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.562009</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-07-05" key="phd/ethos/Irhebhude15">
+        <author>Martins E. Irhebhude</author>
+        <title>Object detection, recognition and re-identification in video footage.</title>
+        <year>2015</year>
+        <school>Loughborough University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.674609</ee>
+        <ee>https://dspace.lboro.ac.uk/2134/19600</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-09-28" key="phd/ethos/Barthel10">
+        <author>Ralph Barthel</author>
+        <title>Collaborative knowledge building through multi-path video creation.</title>
+        <year>2010</year>
+        <school>University of Nottingham, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.537827</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Alam91">
+        <author>Abu Turab Alam</author>
+        <title>Elicitation of software requirements : the role of natural language processing.</title>
+        <year>1991</year>
+        <school>University of Surrey, Guildford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.280471</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-24" key="phd/ethos/Walters11">
+        <author>Thomas C. Walters</author>
+        <title>Auditory-based processing of communication sounds.</title>
+        <year>2011</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://www.dspace.cam.ac.uk/handle/1810/240577</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.541898</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Sziveri97">
+        <author>Janos Sziveri</author>
+        <title>Parallel computational techniques for explicit finite element analysis.</title>
+        <year>1997</year>
+        <school>Heriot-Watt University, Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/10399/1254</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.388916</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Shibghatullah08">
+        <author>Abdul Samad Shibghatullah</author>
+        <title>A multi-agent system for a bus crew rescheduling system.</title>
+        <year>2008</year>
+        <school>Brunel University London, UK</school>
+        <ee>http://bura.brunel.ac.uk/handle/2438/5423</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.485715</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-30" key="phd/ethos/Shi95a">
+        <author>ShengLi Shi</author>
+        <title>On reasoning with uncertainty and belief change.</title>
+        <year>1995</year>
+        <school>Ulster University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.339316</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/AlMalki06">
+        <author>Dana Mohammed Al-Malki</author>
+        <title>Development of virtual network computing (VNC) environment for networking and enhancing user experience.</title>
+        <year>2006</year>
+        <school>City University London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.433438</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-28" key="phd/ethos/Evans98">
+        <author>G. M. Evans</author>
+        <title>Parallel and distributed integer programming.</title>
+        <year>1998</year>
+        <school>University of East Anglia, Norwich, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.267706</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Skene07">
+        <author>James Skene</author>
+        <title>Language support for service-level agreements for application-service provision.</title>
+        <year>2007</year>
+        <school>University College London, UK</school>
+        <ee>http://discovery.ucl.ac.uk/5607/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.498500</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-30" key="phd/ethos/Wardeh09">
+        <author>Maya Wardeh</author>
+        <title>Arguing from experience : persuasive dialogue based on association rules.</title>
+        <year>2009</year>
+        <school>University of Liverpool, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.533911</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-06-18" key="phd/ethos/Reul12">
+        <author>Quentin Reul</author>
+        <title>Role of description logic reasoning in ontology matching.</title>
+        <year>2012</year>
+        <school>University of Aberdeen, UK</school>
+        <ee>http://digitool.abdn.ac.uk/webclient/DeliveryManager?pid=186278</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.558665</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/Ghetiu12">
+        <author>Teodor Ghetiu</author>
+        <title>Structured argumentation for simulation-based research.</title>
+        <year>2012</year>
+        <school>University of York, UK</school>
+        <ee>http://etheses.whiterose.ac.uk/7726/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.647048</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Jaser05">
+        <author>Edward Jaser</author>
+        <title>Hierarchical decision making for semantic analysis and summarisation of sports videos.</title>
+        <year>2005</year>
+        <school>University of Surrey, Guildford, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.426027</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-30" key="phd/ethos/Wolverson09">
+        <author>Nicholas Wolverson</author>
+        <title>Game semantics for an object-oriented language.</title>
+        <year>2009</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/3216</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.562399</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-19" key="phd/ethos/SadeghiTehran12">
+        <author>Pouria Sadeghi-Tehran</author>
+        <title>Automatic methods for videostreams analysis and self-evolving controllers.</title>
+        <year>2012</year>
+        <school>Lancaster University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.662191</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Wu15">
+        <author>Qi Wu</author>
+        <title>Modelling visual objects regardless of depictive style.</title>
+        <year>2015</year>
+        <school>University of Bath, UK</school>
+        <ee>http://opus.bath.ac.uk/44287/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.646137</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-16" key="phd/ethos/Huang03">
+        <author>Wei Huang</author>
+        <title>Scheduling of batch processing plants : constraint model and computer scheduling system.</title>
+        <year>2003</year>
+        <school>Loughborough University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.398063</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-25" key="phd/ethos/Sarangdhar10">
+        <author>Mayur Sarangdhar</author>
+        <title>A computational framework for similarity estimation and stimulus reconstruction of Hodgkin-Huxley neural responses.</title>
+        <year>2010</year>
+        <school>University of Hull, Kingston upon Hull, UK</school>
+        <ee>http://hydra.hull.ac.uk/resources/hull:4949</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.550473</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2017-03-08" key="phd/ethos/Armih13">
+        <author>Khari A. Armih</author>
+        <title>Toward optimised skeletons for heterogeneous parallel architecture with performance cost model.</title>
+        <year>2013</year>
+        <school>Heriot-Watt University, UK</school>
+        <ee>http://hdl.handle.net/10399/2652</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.601713</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Ontiveros05">
+        <author>Mercedes Beatriz Ontiveros</author>
+        <title>Elliptic curve cryptography mapped with channel coding.</title>
+        <year>2005</year>
+        <school>University of Newcastle Upon Tyne, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.423718</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Moore08">
+        <author>Tyler Moore</author>
+        <title>Cooperative attack and defense in distributed networks.</title>
+        <year>2008</year>
+        <school>University of Cambridge, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.612283</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-07" key="phd/ethos/Trignano05">
+        <author>Vincenzo Trignano</author>
+        <title>Virtual prototyping of embedded real-time systems.</title>
+        <year>2005</year>
+        <school>University of Sussex, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.414786</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-04" key="phd/ethos/Jones94a">
+        <author>Steven Robert Andrew Jones</author>
+        <title>Easing the writing task : designing computer based systems to help authors.</title>
+        <year>1994</year>
+        <school>University of Stirling, UK</school>
+        <ee>http://hdl.handle.net/1893/2026</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.513881</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-07-31" key="phd/ethos/Meng18">
+        <author>Xim Meng</author>
+        <title>An integrated network-based mobile botnet detection system.</title>
+        <year>2018</year>
+        <school>City University London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.742971</ee>
+        <ee>http://openaccess.city.ac.uk/19840/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Connard92">
+        <author>Peter Connard</author>
+        <title>Mixed Integer Programming on transputers.</title>
+        <year>1992</year>
+        <school>University of Warwick, Coventry, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.359933</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-01" key="phd/ethos/Kang08">
+        <author>Ross J. Kang</author>
+        <title>Improper colourings of graphs.</title>
+        <year>2008</year>
+        <school>University of Oxford, UK</school>
+        <ee>http://ora.ox.ac.uk/objects/uuid:a93d8303-0eeb-4d01-9b77-364113b81a63</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.491626</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-18" key="phd/ethos/Alsanie12">
+        <author>Waleed Alsanie</author>
+        <title>Learning failure-free PRISM programs.</title>
+        <year>2012</year>
+        <school>University of York, UK</school>
+        <ee>http://etheses.whiterose.ac.uk/3388/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.568108</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-06" key="phd/ethos/Jayaratne91">
+        <author>Nimal Ananda Jayaratne</author>
+        <title>A conceptual framework for understanding and evaluating information systems methodologies.</title>
+        <year>1991</year>
+        <school>Heriot-Watt University, Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/10399/1291</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.320727</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-10-28" key="phd/ethos/Gwilliams15">
+        <author>Christopher Gwilliams</author>
+        <title>Using local and global knowledge in wireless sensor networks.</title>
+        <year>2015</year>
+        <school>Cardiff University, UK</school>
+        <ee>http://orca.cf.ac.uk/73423/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.649409</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-02" key="phd/ethos/Campbell07a">
+        <author>Duncan Russell Campbell</author>
+        <title>Approaches for the digital profiling of activities and their applications in design information push.</title>
+        <year>2007</year>
+        <school>University of Bath, Somerset, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.443125</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Mitchell97a">
+        <author>William Ian Cameron Mitchell</author>
+        <title>On a case supported approach to object-oriented rapid prototyping.</title>
+        <year>1997</year>
+        <school>University of Sunderland, Tyne and Wear, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.362599</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-16" key="phd/ethos/MarinBlazquez03">
+        <author>Javier G. Mar&iacute;n-Bl&aacute;zquez</author>
+        <title>From approximative to descriptive fuzzy models.</title>
+        <year>2003</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.657313</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Hammond07">
+        <author>Simon P. Hammond</author>
+        <title>Adaptive scaling of evolvable systems.</title>
+        <year>2007</year>
+        <school>University of Birmingham, UK</school>
+        <ee>http://etheses.bham.ac.uk/121/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.489761</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-05" key="phd/ethos/Connally06">
+        <author>Patrick J. Connally</author>
+        <title>Eng-genes neural networks for nonlinear modelling and control.</title>
+        <year>2006</year>
+        <school>Queen's University Belfast, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.438174</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Morciniec96">
+        <author>Michal Morciniec</author>
+        <title>The n-tuple network: coping with sub-optimality.</title>
+        <year>1996</year>
+        <school>Aston University, Birmingham, UK</school>
+        <ee>http://eprints.aston.ac.uk/10601/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.339704</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Tseng96">
+        <author>Kuo-Jung Tseng</author>
+        <title>Chinese character generation : a stroke oriented method.</title>
+        <year>1996</year>
+        <school>University of Kent, UK</school>
+        <ee>http://kar.kent.ac.uk/21368/</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.337074</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-30" key="phd/ethos/Longley95">
+        <author>John R. Longley</author>
+        <title>Realizability toposes and language semantics.</title>
+        <year>1995</year>
+        <school>University of Edinburgh, UK</school>
+        <ee>http://hdl.handle.net/1842/402</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.561648</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-29" key="phd/ethos/Acevedo96">
+        <author>Mascarus Joaquin Acevedo</author>
+        <title>Parametric and stochastic programming algorithms for process synthesis under uncertainty.</title>
+        <year>1996</year>
+        <school>Imperial College London, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.244035</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2018-04-14" key="phd/ethos/Jiang16">
+        <author>Min Jiang</author>
+        <title>Energy based dissolution simulation using smoothed particle hydrodynamic sampling.</title>
+        <year>2016</year>
+        <school>Bournemouth University, Poole, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.694853</ee>
+        <ee>http://eprints.bournemouth.ac.uk/24744/</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-28" key="phd/ethos/Ranno98">
+        <author>Fr&eacute;d&eacute;ric Ranno</author>
+        <title>A language and toolkit for the specification, execution and monitoring of dependable distributed applications.</title>
+        <year>1998</year>
+        <school>Newcastle University, Newcastle upon Tyne, UK</school>
+        <ee>http://hdl.handle.net/10443/1998</ee>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.285736</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-09-30" key="phd/ethos/Paterno95">
+        <author>Fabio Domenico Paterno</author>
+        <title>A method for formal specification and verification of interactive systems.</title>
+        <year>1995</year>
+        <school>University of York, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.297141</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+    <phdthesis mdate="2016-08-11" key="phd/ethos/Williams73">
+        <author>G. Williams</author>
+        <title>System analysis of structural networks by the use of mixed methods.</title>
+        <year>1973</year>
+        <school>Cardiff University, UK</school>
+        <ee>http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.483017</ee>
+        <note type="source">British Library, EThOS</note>
+    </phdthesis>
+</dblp>
