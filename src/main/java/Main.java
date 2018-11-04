@@ -17,18 +17,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /*XmlToJsonConverter xmlToJsonConverter = new XmlToJsonConverter();
-        String json = xmlToJsonConverter.convert("dblpSample.xml");
+        //XmlToJsonConverter xmlToJsonConverter = new XmlToJsonConverter();
+        //xmlToJsonConverter.convertLarge("dblp.xml");
 
-        try {
-            xmlToJsonConverter.save(json, "output.json");
-        } catch (FileNotFoundException e) {
-            System.err.println("Error saving file.");
-            e.printStackTrace();
-        }*/
+//        try {
+//            xmlToJsonConverter.save(json, "output.json");
+//        } catch (FileNotFoundException e) {
+//            System.err.println("Error saving file.");
+//            e.printStackTrace();
+//        }
 
         MongoTest mongoTest = new MongoTest();
-        mongoTest.addToCollection();
+        mongoTest.addMagToCollection("mag_papers_0.txt");
 
 
     }
