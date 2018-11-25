@@ -1,15 +1,24 @@
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.LineIterator;
 import org.apache.commons.lang3.StringUtils;
+import org.codehaus.jettison.mapped.MappedXMLOutputFactory;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.XML;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.PrintWriter;
+import javax.xml.stream.XMLEventReader;
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamException;
+import java.io.*;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.stream.Stream;
 
 public class XmlToJsonConverter {
 
@@ -38,7 +47,27 @@ public class XmlToJsonConverter {
         return jsonString;
     }
 
-    public void convertLarge(String pathToXmlFile) {
+    // TODO: make generic xml to json parser for large XML files
+    public void convertPatent(String pathToXmlFile) {
+        String location = "JSON Data/Patent/";
+        try {
+            File xmlFile = new File(pathToXmlFile);
+            String fileString = FileUtils.readFileToString(xmlFile, "utf-8");
+
+            JSONObject json = XML.toJSONObject(fileString);
+            String jsonString = json.toString(4);
+
+
+            save(jsonString, location + "patent-" + FilenameUtils.getBaseName(pathToXmlFile) + ".json");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void convertDblpLarge(String pathToXmlFile) {
+        String location = "JSON Data/DBLP/";
+
         int linesPerFile = 1000000;
         StringBuilder fileSb = new StringBuilder();
         String jsonString;
@@ -59,7 +88,7 @@ public class XmlToJsonConverter {
                     JSONObject xmlJSONObj = XML.toJSONObject(fileSb.toString());
                     jsonString = xmlJSONObj.toString(4);
 
-                    save(jsonString, "output-" + fileCounter++ + ".json");
+                    save(jsonString, location + "output-" + fileCounter++ + ".json");
 
                     fileSb = new StringBuilder();
                     fileSb.append("<dblp>");
@@ -80,5 +109,28 @@ public class XmlToJsonConverter {
         try (PrintWriter out = new PrintWriter(filepath)) {
             out.println(json);
         }
+    }
+
+    static String readFile(String path, Charset encoding)
+            throws IOException
+    {
+        byte[] encoded = Files.readAllBytes(Paths.get(path));
+        return new String(encoded, encoding);
+    }
+
+    private int getNextFileIndexInDirectory(String pathToDirectory) {
+        File folder = new File(pathToDirectory);
+        File[] listOfFiles = folder.listFiles();
+
+        int fileIndex = 0;
+        assert listOfFiles != null;
+        for (File file : listOfFiles) {
+            if (file.isFile()) {
+                int lastDash = file.getName().lastIndexOf('-');
+                int lastDot = file.getName().lastIndexOf('.');
+                fileIndex = Integer.parseInt(file.getName().substring(lastDash+1, lastDot));
+            }
+        }
+        return ++fileIndex;
     }
 }

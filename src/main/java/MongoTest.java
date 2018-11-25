@@ -82,10 +82,34 @@ public class MongoTest {
         }
     }
 
-    public void addMagToCollection(String json, MongoCollection<Document> collection) {
+    // TODO: make generic method!!!
+    public void addPatentToCollection(String jsonFile, MongoCollection<Document> collection) {
         List<Document> docs = new ArrayList<>();
         try {
-            LineIterator fileContents= FileUtils.lineIterator(new File(json), StandardCharsets.UTF_8.name());
+            String json = FileUtils.readFileToString(new File(jsonFile), "utf-8");
+            JSONObject patent = new JSONObject(json);
+
+            JSONArray patentRoot = patent.getJSONArray("us-patent-grant");
+
+            for (int i = 0; i < patentRoot.length(); i++) {
+                JSONObject record = patentRoot.getJSONObject(i);
+                docs.add(Document.parse(record.toString()));
+            }
+
+            collection.insertMany(docs);
+            docs.clear();
+            System.out.println(collection.countDocuments());
+
+        } catch (Exception e) {
+            System.err.println("Key: ");
+            e.printStackTrace();
+        }
+    }
+
+    public void parseJsonByLines(String jsonFile, MongoCollection<Document> collection) {
+        List<Document> docs = new ArrayList<>();
+        try {
+            LineIterator fileContents = FileUtils.lineIterator(new File(jsonFile), StandardCharsets.UTF_8.name());
             int count = 0;
             while(fileContents.hasNext()) {
             //for (int i = 0; i < 1000; i++) {
@@ -95,6 +119,7 @@ public class MongoTest {
                     collection.insertMany(docs);
                     docs.clear();
                     count = 0;
+                    System.out.println(collection.countDocuments());
                 }
                 count++;
             }
