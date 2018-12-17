@@ -1,3 +1,5 @@
+package xmltojsonconverter;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.LineIterator;
@@ -18,23 +20,44 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
+import java.util.List;
 import java.util.stream.Stream;
 
 public class XmlToJsonConverter {
 
     /**
-     * Converts a XML document to JSON. It supports dtd entities.
-     * @param pathToXmlFile - Path to the XML file
+     * Converts a XML file to JSON.  It supports dtd entities.
+     * @param pathToXmlFile - The path to the XML file
+     * @param destinationPath - The destination path, where the converted JSON file should be saved.
+     *                        The path has to end with the trailing slash '/'.
+     * @param overwrite - Flag specifying, whether the existing file in the destination path should be overwritten
+     *                  if it exists.
      */
-    public String convert(String pathToXmlFile) {
-        String jsonString = "";
+    private void convert(String pathToXmlFile, String destinationPath, boolean overwrite) {
+        File xmlFile = new File(pathToXmlFile);
+        if (!xmlFile.isFile()) {
+            System.err.println("The path " + pathToXmlFile + " is not a file.");
+        }
+        String nameWithoutExt = FilenameUtils.getBaseName(xmlFile.getName());
+
+        File destFile = new File(destinationPath);
+        destFile.mkdirs();
+
+        String jsonFilePath = destinationPath + nameWithoutExt + ".json";
+
+        // If already exists, skip it if overwrite is false
+        if (!overwrite && new File(jsonFilePath).exists()) {
+            System.out.println("File " + jsonFilePath + " already exists. Skipping...");
+            return;
+        }
+
         try {
             String xml = FileUtils.readFileToString(new File(pathToXmlFile), "utf-8");
 
             JSONObject xmlJSONObj = XML.toJSONObject(xml);
-            jsonString = xmlJSONObj.toString(4);
+            String jsonString = xmlJSONObj.toString(4);
 
-            System.out.println(jsonString);
+            save(jsonString, jsonFilePath);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -43,26 +66,38 @@ public class XmlToJsonConverter {
             e.printStackTrace();
             System.err.println("There was an error converting the XML file " + pathToXmlFile + " to JSON.");
         }
-
-        return jsonString;
     }
 
-    // TODO: make generic xml to json parser for large XML files
-    public void convertPatent(String pathToXmlFile) {
-        String location = "JSON Data/Patent/";
-        try {
-            File xmlFile = new File(pathToXmlFile);
-            String fileString = FileUtils.readFileToString(xmlFile, "utf-8");
-
-            JSONObject json = XML.toJSONObject(fileString);
-            String jsonString = json.toString(4);
-
-
-            save(jsonString, location + "patent-" + FilenameUtils.getBaseName(pathToXmlFile) + ".json");
-
-        } catch (IOException e) {
-            e.printStackTrace();
+    public void convertDirectory(String pathToDir, String destinationPath) throws IOException {
+        // TODO: Extract listing all files to generic method
+        File dir = new File(pathToDir);
+        if (dir.isFile()) {
+            System.err.println("The path " + pathToDir + " is not a directory.");
+            return;
         }
+
+        String[] extensions = new String[] { "xml" };
+        String dirName = dir.getName();
+        List<File> files = (List<File>) FileUtils.listFiles(dir, extensions, true);
+
+        for (File file : files) {
+            String path = file.getParent();
+            path = path.substring(path.lastIndexOf(dirName));
+            path = destinationPath + path + "/";
+
+            System.out.println(path);
+            convert(file.getCanonicalPath(), path, false);
+        }
+    }
+
+    public void testConvert(String xmlPath) throws XMLStreamException, FileNotFoundException {
+        File xml = new File(xmlPath);
+        //String xml = "<root><foo>foo string</foo><bar><x>1</x><y>5</y></bar></root>";
+        XMLEventReader reader = XMLInputFactory.newInstance().createXMLEventReader(new FileReader(xml));
+        XMLEventWriter writer = new MappedXMLOutputFactory(new HashMap()).createXMLEventWriter(System.out);
+        writer.add(reader);
+        writer.close();
+        reader.close();
     }
 
     public void convertDblpLarge(String pathToXmlFile) {
