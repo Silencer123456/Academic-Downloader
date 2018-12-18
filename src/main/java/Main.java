@@ -2,13 +2,18 @@ import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FilenameUtils;
 import org.bson.Document;
 import xmltojsonconverter.XmlToJsonConverter;
 import zipextractor.ZipExtractor;
 
 import javax.xml.stream.XMLStreamException;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -22,9 +27,14 @@ public class Main {
     }
 
     public Main() {
-        convertData();
+        //convertData();
         //extractData();
         //loadPatent();
+        try {
+            loadMag();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private void convertData() {
@@ -81,12 +91,28 @@ public class Main {
         }
     }
 
-    private void loadMag() {
-        MongoClient mongoClient = MongoClients.create();
-        MongoDatabase database = mongoClient.getDatabase("local");
+    private void loadMag() throws IOException {
+        String dirPath = "F:/DP/Data Extracted/Data";
 
-        MongoCollection<Document> collection = database.getCollection("dblp");
+        File dir = new File(dirPath);
+        if (dir.isFile()) {
+            System.err.println("The path " + dirPath + " is not a directory.");
+            return;
+        }
+
+        String[] extensions = new String[] { "txt" };
+        List<File> files = (List<File>) FileUtils.listFiles(dir, extensions, true);
+
+        MongoClient mongoClient = MongoClients.create();
+        MongoDatabase database = mongoClient.getDatabase("diploma");
+
+        MongoCollection<Document> collection = database.getCollection("publications");
         MongoTest mongoTest = new MongoTest();
-        mongoTest.parseJsonByLines("mag_papers_0.txt", collection);
+
+        for (File file : files) {
+            System.out.println("Processing " + file.getCanonicalPath());
+            mongoTest.parseJsonByLines(file.getCanonicalPath(), collection);
+            System.out.println(collection.countDocuments());
+        }
     }
 }

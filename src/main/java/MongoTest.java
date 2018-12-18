@@ -108,22 +108,21 @@ public class MongoTest {
 
     public void parseJsonByLines(String jsonFile, MongoCollection<Document> collection) {
         List<Document> docs = new ArrayList<>();
-        try {
-            LineIterator fileContents = FileUtils.lineIterator(new File(jsonFile), StandardCharsets.UTF_8.name());
+        try(LineIterator fileContents = FileUtils.lineIterator(new File(jsonFile), StandardCharsets.UTF_8.name())) {
             int count = 0;
             while(fileContents.hasNext()) {
-            //for (int i = 0; i < 1000; i++) {
                 Document doc = Document.parse( fileContents.nextLine());
                 docs.add(doc);
                 if (count == 100000) {
                     collection.insertMany(docs);
+                    System.out.println(collection.countDocuments());
                     docs.clear();
                     count = 0;
-                    System.out.println(collection.countDocuments());
                 }
                 count++;
             }
-
+            collection.insertMany(docs);
+            docs.clear();
         } catch (IOException e) {
             e.printStackTrace();
         }
