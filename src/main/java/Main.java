@@ -3,16 +3,12 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.FilenameUtils;
 import org.bson.Document;
-import xmltojsonconverter.XmlToJsonConverter;
-import zipextractor.ZipExtractor;
+import utils.xmltojsonconverter.XmlToJsonConverter;
+import utils.zipextractor.ZipExtractor;
 
-import javax.xml.stream.XMLStreamException;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -20,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
 
         new Main();
-        //xmltojsonconverter.XmlToJsonConverter xmlToJsonConverter = new xmltojsonconverter.XmlToJsonConverter();
+        //utils.xmltojsonconverter.XmlToJsonConverter xmlToJsonConverter = new utils.xmltojsonconverter.XmlToJsonConverter();
         //xmlToJsonConverter.convertPatent("XML Data/ipgb20080101.xml");
         //xmlToJsonConverter.convertPatent("XML Data/ipgb20180102.xml");
 
@@ -64,7 +60,6 @@ public class Main {
             for (int i = 0; i < 14; i++) {
                 zipUrlExtractor.extractZipFromUrl("https://bulkdata.uspto.gov/data/patent/grant/redbook/bibliographic/" + year + "/", "F:/DP/Data/Patent/" + year);
                 year--;
-
             }
         } catch (IOException e) {
             e.printStackTrace();

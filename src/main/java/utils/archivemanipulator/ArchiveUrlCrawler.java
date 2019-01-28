@@ -1,4 +1,4 @@
-package archivemanipulator;
+package utils.archivemanipulator;
 
 public class ArchiveUrlCrawler {
 

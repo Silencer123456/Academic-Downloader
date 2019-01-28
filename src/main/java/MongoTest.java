@@ -52,6 +52,11 @@ public class MongoTest {
         collection.insertMany(docs);
     }
 
+    /**
+     * Adds the DBLP file to MongoDB collection
+     * @param jsonFile - The JSON file containing the DBLP data
+     * @param collection - The target MongoDB collection
+     */
     public void addDblpToCollection(String jsonFile, MongoCollection<Document> collection) {
         List<Document> docs = new ArrayList<>();
         try {
@@ -82,6 +87,11 @@ public class MongoTest {
         }
     }
 
+    /**
+     * Adds a patent file to the MongoDB collection.
+     * @param jsonFile - The path to the JSON file containing the patent data
+     * @param collection - The target MongoDB collection
+     */
     // TODO: make generic method!!!
     public void addPatentToCollection(String jsonFile, MongoCollection<Document> collection) {
         List<Document> docs = new ArrayList<>();
@@ -105,6 +115,12 @@ public class MongoTest {
         }
     }
 
+    /**
+     * Reads a JSON file line by line and adds them to the MongoDB collection.
+     * Used only if the source JSON file contains one document per line
+     * @param jsonFile - The path to the JSON file containing the documents
+     * @param collection - The target MongoDB collection
+     */
     public void parseJsonByLines(String jsonFile, MongoCollection<Document> collection) {
         List<Document> docs = new ArrayList<>();
         try(LineIterator fileContents = FileUtils.lineIterator(new File(jsonFile), StandardCharsets.UTF_8.name())) {

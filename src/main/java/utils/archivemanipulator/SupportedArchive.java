@@ -1,4 +1,4 @@
-package archivemanipulator;
+package utils.archivemanipulator;
 
 public enum SupportedArchive {
     ZIP("zip"),

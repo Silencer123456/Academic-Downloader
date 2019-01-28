@@ -1,4 +1,4 @@
-package zipextractor;
+package utils.zipextractor;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
@@ -13,6 +13,15 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
 public class ZipExtractor {
+
+    /**
+     * Selects all the ZIP files from the directory and its subdirectories and
+     * extracts their contents to the destination path.
+     * Maintains the subdirectory structure in the destination.
+     * @param pathToDir - Source path to the parent directory from which to select the files
+     * @param extractedPath - The destination path, where the extracted files should be moved
+     * @throws IOException if the source directory does not exist
+     */
     public void extractDirectory(String pathToDir, String extractedPath) throws IOException {
         File dir = new File(pathToDir);
         if (dir.isFile()) {
@@ -34,7 +43,13 @@ public class ZipExtractor {
         }
     }
 
-    private void extractFile(String zipPath, String dirPath) throws IOException {
+    /**
+     * Extracts single file from the specified path.
+     * @param zipPath - Path to the ZIP file to be extracted
+     * @param outPath - The destination path, where the contents of the file should be moved
+     * @throws IOException if the path to the ZIP file does not exist
+     */
+    private void extractFile(String zipPath, String outPath) throws IOException {
         ZipFile zipFile = new ZipFile(zipPath);
         Enumeration<?> enu = zipFile.entries();
         while (enu.hasMoreElements()) {
@@ -46,7 +61,7 @@ public class ZipExtractor {
             System.out.printf("name: %-20s | size: %6d | compressed size: %6d\n",
                     name, size, compressedSize);
 
-            File file = new File(dirPath + name);
+            File file = new File(outPath + name);
             if (name.endsWith("/")) {
                 file.mkdirs();
                 continue;
