@@ -101,7 +101,6 @@ public class MongoTest {
             System.out.println(collection.countDocuments());
 
         } catch (Exception e) {
-            System.err.println("Key: ");
             e.printStackTrace();
         }
     }

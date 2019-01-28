@@ -26,12 +26,14 @@ public class Main {
 
     }
 
+    private static final String DB_NAME = "diploma";
+
     public Main() {
         //convertData();
         //extractData();
         //loadPatent();
         try {
-            loadMag();
+            loadPatent("F:/DP/Extracted JSON/Patent/2008");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -69,19 +71,34 @@ public class Main {
         }
     }
 
-    private void loadPatent() {
+    private void loadPatent(String dirPath) throws IOException {
+        File dir = new File(dirPath);
+        if (dir.isFile()) {
+            System.err.println("The path " + dirPath + " is not a directory.");
+            return;
+        }
+
+        String[] extensions = new String[] { "json" };
+        List<File> files = (List<File>) FileUtils.listFiles(dir, extensions, true);
+
         MongoClient mongoClient = MongoClients.create();
-        MongoDatabase database = mongoClient.getDatabase("local");
+        MongoDatabase database = mongoClient.getDatabase(DB_NAME);
 
         MongoCollection<Document> collection = database.getCollection("patent");
         MongoTest mongoTest = new MongoTest();
-        mongoTest.addPatentToCollection("JSON Data/Patent/patent-ipgb20180102.json", collection);
 
+        for (File file : files) {
+            System.out.println("Processing " + file.getCanonicalPath());
+            mongoTest.addPatentToCollection(file.getCanonicalPath(), collection);
+            System.out.println(collection.countDocuments());
+        }
+
+        //mongoTest.addPatentToCollection("JSON Data/Patent/patent-ipgb20180102.json", collection);
     }
 
     private void loadDblp() {
         MongoClient mongoClient = MongoClients.create();
-        MongoDatabase database = mongoClient.getDatabase("local");
+        MongoDatabase database = mongoClient.getDatabase(DB_NAME);
 
         MongoCollection<Document> collection = database.getCollection("dblp");
 
@@ -91,16 +108,14 @@ public class Main {
         }
     }
 
-    private void loadMag() throws IOException {
-        String dirPath = "F:/DP/Data Extracted/Data";
-
+    private void loadMag(String dirPath) throws IOException {
         File dir = new File(dirPath);
         if (dir.isFile()) {
             System.err.println("The path " + dirPath + " is not a directory.");
             return;
         }
 
-        String[] extensions = new String[] { "txt" };
+        String[] extensions = new String[] { "txt" };   // MAGs are txt files
         List<File> files = (List<File>) FileUtils.listFiles(dir, extensions, true);
 
         MongoClient mongoClient = MongoClients.create();
