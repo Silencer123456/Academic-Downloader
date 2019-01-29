@@ -11,6 +11,12 @@ public interface DbConnection {
     void connect();
 
     /**
+     * Inserts the provided data to the target database.
+     * @param loadArgs - The data structure to be loaded into the target database
+     */
+    void insert(IDbLoadArgs loadArgs);
+
+    /**
      * Disconnects from the database
      */
     void disconnect();

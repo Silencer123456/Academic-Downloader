@@ -1,3 +1,7 @@
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.JsonToken;
+import com.fasterxml.jackson.databind.MappingJsonFactory;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
@@ -87,31 +91,19 @@ public class MongoTest {
         }
     }
 
+
+
     /**
-     * Adds a patent file to the MongoDB collection.
-     * @param jsonFile - The path to the JSON file containing the patent data
-     * @param collection - The target MongoDB collection
+     * Reads an input JSON file by streaming.
+     * @param path - The path to the JSON file
      */
-    // TODO: make generic method!!!
-    public void addPatentToCollection(String jsonFile, MongoCollection<Document> collection) {
-        List<Document> docs = new ArrayList<>();
-        try {
-            String json = FileUtils.readFileToString(new File(jsonFile), "utf-8");
-            JSONObject patent = new JSONObject(json);
+    public void parseXmlStream(String path) throws IOException {
+        JsonFactory factory = new MappingJsonFactory();
+        JsonParser parser = factory.createParser(new File(path));
 
-            JSONArray patentRoot = patent.getJSONArray("us-patent-grant");
+        JsonToken current = parser.nextToken();
+        if (current != JsonToken.START_OBJECT) {
 
-            for (int i = 0; i < patentRoot.length(); i++) {
-                JSONObject record = patentRoot.getJSONObject(i);
-                docs.add(Document.parse(record.toString()));
-            }
-
-            collection.insertMany(docs);
-            docs.clear();
-            System.out.println(collection.countDocuments());
-
-        } catch (Exception e) {
-            e.printStackTrace();
         }
     }
 

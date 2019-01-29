@@ -2,17 +2,24 @@ package utils.zipextractor;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Enumeration;
 import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-public class ZipExtractor {
+public class ZipHandler {
 
     /**
      * Selects all the ZIP files from the directory and its subdirectories and
@@ -84,5 +91,37 @@ public class ZipExtractor {
 
         }
         zipFile.close();
+    }
+
+    /**
+     *
+     * @param url
+     * @param destination
+     * @throws IOException
+     */
+    public void extractZipFromUrl(String url, String destination) throws IOException {
+        Document doc = Jsoup.connect(url).get();
+        Elements zipFiles = doc.select("a[href~=.*wk.*.zip$]");
+        for (Element zipPath : zipFiles) {
+            String linkUrl = zipPath.attr("abs:href");
+            System.out.println("Downloading " + linkUrl);
+            byte[] bytes = Jsoup.connect(linkUrl)
+                    .referrer(url)
+                    .ignoreContentType(true)
+                    .maxBodySize(0)
+                    .timeout(1000000)
+                    .execute()
+                    .bodyAsBytes();
+
+            Path dirPath = Paths.get(destination);
+            Files.createDirectories(dirPath);
+
+            String filename = zipPath.text();
+            FileOutputStream fos = new FileOutputStream(dirPath.normalize().toString() + "/" + filename);
+            fos.write(bytes);
+            fos.close();
+
+            System.out.println("File has been downloaded.");
+        }
     }
 }

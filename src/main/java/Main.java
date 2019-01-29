@@ -5,7 +5,7 @@ import com.mongodb.client.MongoDatabase;
 import org.apache.commons.io.FileUtils;
 import org.bson.Document;
 import utils.xmltojsonconverter.XmlToJsonConverter;
-import utils.zipextractor.ZipExtractor;
+import utils.zipextractor.ZipHandler;
 
 import java.io.File;
 import java.io.IOException;
@@ -29,7 +29,7 @@ public class Main {
         //extractData();
         //loadPatent();
         try {
-            loadPatent("F:/DP/Extracted JSON/Patent/2008");
+            loadPatent("E:/Patent");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -45,16 +45,16 @@ public class Main {
     }
 
     private void extractData() {
-        ZipExtractor zipExtractor = new ZipExtractor();
+        ZipHandler zipHandler = new ZipHandler();
         try {
-            zipExtractor.extractDirectory("F:/DP/Data/Patent", "F:/DP/Data Extracted/");
+            zipHandler.extractDirectory("F:/DP/Data/Patent", "F:/DP/Data Extracted/");
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     private void downloadPatents() {
-        ZipUrlExtractor zipUrlExtractor = new ZipUrlExtractor();
+        ZipUrlDownloader zipUrlExtractor = new ZipUrlDownloader();
         try {
             int year = 2014;
             for (int i = 0; i < 14; i++) {
