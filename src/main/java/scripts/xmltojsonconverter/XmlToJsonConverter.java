@@ -1,4 +1,4 @@
-package utils.xmltojsonconverter;
+package scripts.xmltojsonconverter;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;

@@ -1,15 +1,20 @@
 import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.MappingJsonFactory;
-import com.mongodb.client.MongoCollection;
 import db.*;
-import org.apache.commons.io.FileUtils;
+import db.loader.DbLoader;
+import db.loader.IDbLoadArgs;
+import db.loader.MongoDbLoadArgs;
 import org.bson.Document;
+import utils.DirectoryHandler;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -17,21 +22,28 @@ import java.util.List;
  */
 public class PatentLoader extends DbLoader {
 
-    private static final String COLLECTION_NAME = "patent";
+    private static final String COLLECTION_NAME = "test";
 
-    public PatentLoader(DbConnection dbConnection) {
+    PatentLoader(DbConnection dbConnection) {
         super(dbConnection);
     }
 
+    // TODO: Maybe remove from parent and make private
     @Override
-    public void insertFromFile(String filePath) throws IOException {
-        List<Document> docs = parseFileStreaming(filePath);
+    public void insertFromFile(File file) throws IOException {
+        LOGGER.finer("Parsing file " + file.getCanonicalPath());
+        List<Document> docs = parseFileStreaming(file);
+        LOGGER.finer("Parsing done");
+
+        if (docs.isEmpty()) {
+            LOGGER.warning("List is empty, skipping...");
+            return;
+        }
 
         IDbLoadArgs loadArgs;
         if (dbConnection instanceof MongoDbConnection) {
             loadArgs = new MongoDbLoadArgs(COLLECTION_NAME, docs);
-        }
-        else {
+        } else {
             LOGGER.severe("Unknown connection specified. Exiting now.");
             throw new RuntimeException();
         }
@@ -39,33 +51,61 @@ public class PatentLoader extends DbLoader {
         dbConnection.insert(loadArgs);
     }
 
-    /**
-     * TODO: Move to separate class, so that this class does not depend on the concrete file loading (JSON here)
-     * Parses the file and from its contents creates a list of documents to be added to the database.
-     * @param filePath - Path to the file to be parsed
-     * @return - List of parsed documents to be added to the database
-     */
-    private List<Document> parseFileStreaming(String filePath) throws IOException {
-        JsonFactory factory = new MappingJsonFactory();
-        JsonParser parser = factory.createParser(new File(filePath));
-
-        JsonToken current = parser.nextToken();
-        if (current != JsonToken.START_OBJECT) {
-
+    @Override
+    public void loadFromDirectory(String dirPath, String[] extensions) throws IOException {
+        List<File> files = DirectoryHandler.ListFilesFromDirectory(dirPath, extensions, true);
+        for (File file : files) {
+            LOGGER.info("Processing " + file.getCanonicalPath());
+            insertFromFile(file);
         }
     }
 
     /**
-     * Adds a patent file to the MongoDB collection.
-     * @param jsonFile - The path to the JSON file containing the patent data
-     * @param collection - The target MongoDB collection
+     * TODO: Move to separate class, so that this class does not depend on the concrete file loading (JSON here)
+     * Streams the file and from its contents creates a list of documents to be added to the database.
+     *
+     * @param file - File to be parsed
+     * @return - List of parsed documents to be added to the database. If there is an error parsing
+     * the file, an empty list is returned
      */
+    private List<Document> parseFileStreaming(File file) throws IOException {
+        List<Document> documents = new ArrayList<>();
+
+        JsonFactory factory = new MappingJsonFactory();
+        try (JsonParser parser = factory.createParser(file)) {
+            JsonToken current = parser.nextToken();
+            while (parser.nextToken() != JsonToken.END_OBJECT) {
+                String fieldName = parser.getCurrentName();
+                current = parser.nextToken();
+                if (fieldName.equals("us-patent-grant")) {
+                    if (current == JsonToken.START_ARRAY) {
+                        while (parser.nextToken() != JsonToken.END_ARRAY) {
+                            JsonNode node = parser.readValueAsTree();
+                            documents.add(Document.parse(node.toString()));
+                        }
+                    }
+                }
+            }
+        } catch (JsonParseException e) {
+            LOGGER.warning("Error parsing file " + file.getCanonicalPath());
+            return Collections.emptyList();
+        }
+
+        return documents;
+    }
+
+    /**
+     * Adds a patent file to the MongoDB collection.
+     *
+     * @param jsonFile   - The path to the JSON file containing the patent data
+     * @param collection - The target MongoDB collection
+     *//*
     // TODO: make generic method!!!
     public void addPatentToCollection(String jsonFile, MongoCollection<Document> collection) {
         List<Document> docs = new ArrayList<>();
         try {
             String json = FileUtils.readFileToString(new File(jsonFile), "utf-8");
-            /*JSONObject patent = new JSONObject(json);
+            *//*JSONObject patent = new JSONObject(json);
 
             JSONArray patentRoot = patent.getJSONArray("us-patent-grant");
 
@@ -75,9 +115,9 @@ public class PatentLoader extends DbLoader {
             }
 
             collection.insertMany(docs);
-            System.out.println(collection.countDocuments());*/
+            System.out.println(collection.countDocuments());*//*
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
+    }*/
 }

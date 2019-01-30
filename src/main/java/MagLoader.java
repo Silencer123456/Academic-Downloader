@@ -1,5 +1,8 @@
 import db.DbConnection;
-import db.DbLoader;
+import db.loader.DbLoader;
+
+import java.io.File;
+import java.io.IOException;
 
 /**
  * Implementation of the loader of Microsoft Academic Graph data to the
@@ -12,7 +15,12 @@ public class MagLoader extends DbLoader {
     }
 
     @Override
-    public void load() {
+    public void insertFromFile(File file) throws IOException {
+
+    }
+
+    @Override
+    public void loadFromDirectory(String dirPath, String[] extensions) throws IOException {
 
     }
 }

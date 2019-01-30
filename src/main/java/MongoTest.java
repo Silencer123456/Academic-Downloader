@@ -1,7 +1,3 @@
-import com.fasterxml.jackson.core.JsonFactory;
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonToken;
-import com.fasterxml.jackson.databind.MappingJsonFactory;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
@@ -11,8 +7,6 @@ import org.apache.commons.io.LineIterator;
 import org.bson.Document;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.json.XML;
-import sun.rmi.runtime.Log;
 
 import java.io.File;
 import java.io.IOException;
@@ -88,22 +82,6 @@ public class MongoTest {
         } catch (Exception e) {
             System.err.println("Key: ");
             e.printStackTrace();
-        }
-    }
-
-
-
-    /**
-     * Reads an input JSON file by streaming.
-     * @param path - The path to the JSON file
-     */
-    public void parseXmlStream(String path) throws IOException {
-        JsonFactory factory = new MappingJsonFactory();
-        JsonParser parser = factory.createParser(new File(path));
-
-        JsonToken current = parser.nextToken();
-        if (current != JsonToken.START_OBJECT) {
-
         }
     }
 

@@ -1,4 +1,4 @@
-package db;
+package db.loader;
 
 /**
  * Abstract definition of the arguments used for loading to the target database.

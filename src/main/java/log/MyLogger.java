@@ -32,10 +32,10 @@ public class MyLogger {
             rootLogger.removeHandler(handlers[0]);
         }
 
-        logger.setLevel(Level.FINER);
+        logger.setLevel(Level.ALL);
 
         ConsoleHandler consoleHandler = new ConsoleHandler();
-        consoleHandler.setLevel(Level.FINER);
+        consoleHandler.setLevel(Level.ALL);
         consoleHandler.setFormatter(formatterTxt);
         logger.addHandler(consoleHandler);
     }

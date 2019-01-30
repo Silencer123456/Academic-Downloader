@@ -2,10 +2,14 @@ import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import db.DbConnection;
+import db.loader.DbLoader;
+import db.MongoDbConnection;
+import log.MyLogger;
 import org.apache.commons.io.FileUtils;
 import org.bson.Document;
-import utils.xmltojsonconverter.XmlToJsonConverter;
-import utils.zipextractor.ZipHandler;
+import scripts.xmltojsonconverter.XmlToJsonConverter;
+import scripts.zipextractor.ZipHandler;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,9 +18,14 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
+        try {
+            MyLogger.setup("");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         new Main();
-        //utils.xmltojsonconverter.XmlToJsonConverter xmlToJsonConverter = new utils.xmltojsonconverter.XmlToJsonConverter();
+        //scripts.xmltojsonconverter.XmlToJsonConverter xmlToJsonConverter = new scripts.xmltojsonconverter.XmlToJsonConverter();
         //xmlToJsonConverter.convertPatent("XML Data/ipgb20080101.xml");
         //xmlToJsonConverter.convertPatent("XML Data/ipgb20180102.xml");
 
@@ -29,7 +38,7 @@ public class Main {
         //extractData();
         //loadPatent();
         try {
-            loadPatent("E:/Patent");
+            loadPatent();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -54,7 +63,7 @@ public class Main {
     }
 
     private void downloadPatents() {
-        ZipUrlDownloader zipUrlExtractor = new ZipUrlDownloader();
+        ZipHandler zipUrlExtractor = new ZipHandler();
         try {
             int year = 2014;
             for (int i = 0; i < 14; i++) {
@@ -66,7 +75,18 @@ public class Main {
         }
     }
 
-    private void loadPatent(String dirPath) throws IOException {
+    private void loadPatent() throws IOException {
+        DbConnection mongoConnection = new MongoDbConnection();
+        mongoConnection.connect();
+        DbLoader patentLoader = new PatentLoader(mongoConnection);
+        patentLoader.loadFromDirectory("E:/Patent/2018", new String[]{"json"});
+
+
+
+        /*DbConnection mongoConnection = new MongoDbConnection();
+        mongoConnection.connect();
+        DbLoader patentLoader = new PatentLoader(mongoConnection);
+
         File dir = new File(dirPath);
         if (dir.isFile()) {
             System.err.println("The path " + dirPath + " is not a directory.");
@@ -80,13 +100,14 @@ public class Main {
         MongoDatabase database = mongoClient.getDatabase(DB_NAME);
 
         MongoCollection<Document> collection = database.getCollection("patent");
+
         MongoTest mongoTest = new MongoTest();
 
         for (File file : files) {
             System.out.println("Processing " + file.getCanonicalPath());
             mongoTest.addPatentToCollection(file.getCanonicalPath(), collection);
             System.out.println(collection.countDocuments());
-        }
+        }*/
 
         //mongoTest.addPatentToCollection("JSON Data/Patent/patent-ipgb20180102.json", collection);
     }

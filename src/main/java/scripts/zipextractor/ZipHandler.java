@@ -1,4 +1,4 @@
-package utils.zipextractor;
+package scripts.zipextractor;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;

@@ -1,5 +1,7 @@
 package db;
 
+import db.loader.IDbLoadArgs;
+
 /**
  * Specifies the connection to the database
  */
