@@ -84,32 +84,4 @@ public class MongoTest {
             e.printStackTrace();
         }
     }
-
-    /**
-     * Reads a JSON file line by line and adds them to the MongoDB collection.
-     * Used only if the source JSON file contains one document per line
-     * @param jsonFile - The path to the JSON file containing the documents
-     * @param collection - The target MongoDB collection
-     */
-    public void parseJsonByLines(String jsonFile, MongoCollection<Document> collection) {
-        List<Document> docs = new ArrayList<>();
-        try(LineIterator fileContents = FileUtils.lineIterator(new File(jsonFile), StandardCharsets.UTF_8.name())) {
-            int count = 0;
-            while(fileContents.hasNext()) {
-                Document doc = Document.parse( fileContents.nextLine());
-                docs.add(doc);
-                if (count == 100000) {
-                    collection.insertMany(docs);
-                    System.out.println(collection.countDocuments());
-                    docs.clear();
-                    count = 0;
-                }
-                count++;
-            }
-            collection.insertMany(docs);
-            docs.clear();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 }

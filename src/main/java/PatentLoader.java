@@ -93,31 +93,4 @@ public class PatentLoader extends DbLoader {
 
         return documents;
     }
-
-    /**
-     * Adds a patent file to the MongoDB collection.
-     *
-     * @param jsonFile   - The path to the JSON file containing the patent data
-     * @param collection - The target MongoDB collection
-     *//*
-    // TODO: make generic method!!!
-    public void addPatentToCollection(String jsonFile, MongoCollection<Document> collection) {
-        List<Document> docs = new ArrayList<>();
-        try {
-            String json = FileUtils.readFileToString(new File(jsonFile), "utf-8");
-            *//*JSONObject patent = new JSONObject(json);
-
-            JSONArray patentRoot = patent.getJSONArray("us-patent-grant");
-
-            for (int i = 0; i < patentRoot.length(); i++) {
-                JSONObject record = patentRoot.getJSONObject(i);
-                docs.insert(Document.parse(record.toString()));
-            }
-
-            collection.insertMany(docs);
-            System.out.println(collection.countDocuments());*//*
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }*/
 }

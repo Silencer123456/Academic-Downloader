@@ -4,6 +4,7 @@ import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.InsertManyOptions;
 import db.loader.IDbLoadArgs;
 import db.loader.MongoDbLoadArgs;
 import org.bson.Document;
@@ -38,13 +39,16 @@ public class MongoDbConnection implements DbConnection {
             connect();
         }
 
+        InsertManyOptions options = new InsertManyOptions();
+        options.ordered(false);
+
         MongoDbLoadArgs mongoArgs = (MongoDbLoadArgs) loadArgs;
 
         MongoCollection<Document> collection = mongoDatabase.getCollection(mongoArgs.getCollectionName());
         LOGGER.finer("Beginning insert");
-        collection.insertMany(mongoArgs.getDocuments());
+        collection.insertMany(mongoArgs.getDocuments(), options);
         LOGGER.finer("Inserting done");
-        //LOGGER.info("Total documents: " + collection.countDocuments());
+        LOGGER.info("Total documents: " + collection.countDocuments());
     }
 
     @Override

@@ -38,7 +38,7 @@ public class Main {
         //extractData();
         //loadPatent();
         try {
-            loadPatent();
+            loadMag();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -80,36 +80,6 @@ public class Main {
         mongoConnection.connect();
         DbLoader patentLoader = new PatentLoader(mongoConnection);
         patentLoader.loadFromDirectory("E:/Patent/2018", new String[]{"json"});
-
-
-
-        /*DbConnection mongoConnection = new MongoDbConnection();
-        mongoConnection.connect();
-        DbLoader patentLoader = new PatentLoader(mongoConnection);
-
-        File dir = new File(dirPath);
-        if (dir.isFile()) {
-            System.err.println("The path " + dirPath + " is not a directory.");
-            return;
-        }
-
-        String[] extensions = new String[] { "json" };
-        List<File> files = (List<File>) FileUtils.listFiles(dir, extensions, true);
-
-        MongoClient mongoClient = MongoClients.create();
-        MongoDatabase database = mongoClient.getDatabase(DB_NAME);
-
-        MongoCollection<Document> collection = database.getCollection("patent");
-
-        MongoTest mongoTest = new MongoTest();
-
-        for (File file : files) {
-            System.out.println("Processing " + file.getCanonicalPath());
-            mongoTest.addPatentToCollection(file.getCanonicalPath(), collection);
-            System.out.println(collection.countDocuments());
-        }*/
-
-        //mongoTest.addPatentToCollection("JSON Data/Patent/patent-ipgb20180102.json", collection);
     }
 
     private void loadDblp() {
@@ -124,26 +94,10 @@ public class Main {
         }
     }
 
-    private void loadMag(String dirPath) throws IOException {
-        File dir = new File(dirPath);
-        if (dir.isFile()) {
-            System.err.println("The path " + dirPath + " is not a directory.");
-            return;
-        }
-
-        String[] extensions = new String[] { "txt" };   // MAGs are txt files
-        List<File> files = (List<File>) FileUtils.listFiles(dir, extensions, true);
-
-        MongoClient mongoClient = MongoClients.create();
-        MongoDatabase database = mongoClient.getDatabase("diploma");
-
-        MongoCollection<Document> collection = database.getCollection("publications");
-        MongoTest mongoTest = new MongoTest();
-
-        for (File file : files) {
-            System.out.println("Processing " + file.getCanonicalPath());
-            mongoTest.parseJsonByLines(file.getCanonicalPath(), collection);
-            System.out.println(collection.countDocuments());
-        }
+    private void loadMag() throws IOException {
+        DbConnection mongoConnection = new MongoDbConnection();
+        mongoConnection.connect();
+        DbLoader magLoader = new MagLoader(mongoConnection);
+        magLoader.loadFromDirectory("E:/MAG/mag_papers_0", new String[]{"txt"});
     }
 }
