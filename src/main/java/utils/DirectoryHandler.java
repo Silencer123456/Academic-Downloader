@@ -3,7 +3,6 @@ package utils;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.logging.Logger;
@@ -25,8 +24,8 @@ public class DirectoryHandler {
      */
     public static List<File> ListFilesFromDirectory(String dirPath, String[] extensions, boolean subDirs) {
         File dir = new File(dirPath);
-        if (dir.isFile()) {
-            LOGGER.warning("The path " + dirPath + " is not a directory.");
+        if (dir.isFile() || !dir.exists()) {
+            LOGGER.warning("The path " + dirPath + " is not a directory or does not exist.");
             return Collections.emptyList();
         }
 

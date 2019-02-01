@@ -6,14 +6,11 @@ import db.DbConnection;
 import db.loader.DbLoader;
 import db.MongoDbConnection;
 import log.MyLogger;
-import org.apache.commons.io.FileUtils;
 import org.bson.Document;
 import scripts.xmltojsonconverter.XmlToJsonConverter;
 import scripts.zipextractor.ZipHandler;
 
-import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 public class Main {
 
@@ -98,6 +95,8 @@ public class Main {
         DbConnection mongoConnection = new MongoDbConnection();
         mongoConnection.connect();
         DbLoader magLoader = new MagLoader(mongoConnection);
-        magLoader.loadFromDirectory("E:/MAG/mag_papers_0", new String[]{"txt"});
+        for (int i = 2; i < 8; i++) {
+            magLoader.loadFromDirectory("E:/MAG/" + i, new String[]{"txt"});
+        }
     }
 }

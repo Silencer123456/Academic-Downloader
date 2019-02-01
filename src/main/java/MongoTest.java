@@ -76,7 +76,7 @@ public class MongoTest {
 
                     collection.insertMany(docs);
                     docs.clear();
-                    System.out.println(collection.countDocuments());
+                    //System.out.println(collection.countDocuments());
                 }
             }
         } catch (Exception e) {

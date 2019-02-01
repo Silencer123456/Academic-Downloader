@@ -48,7 +48,7 @@ public class MongoDbConnection implements DbConnection {
         LOGGER.finer("Beginning insert");
         collection.insertMany(mongoArgs.getDocuments(), options);
         LOGGER.finer("Inserting done");
-        LOGGER.info("Total documents: " + collection.countDocuments());
+        //LOGGER.info("Total documents: " + collection.countDocuments());
     }
 
     @Override
