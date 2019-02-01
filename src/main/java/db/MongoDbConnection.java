@@ -44,7 +44,7 @@ public class MongoDbConnection implements DbConnection {
 
         MongoDbLoadArgs mongoArgs = (MongoDbLoadArgs) loadArgs;
 
-        MongoCollection<Document> collection = mongoDatabase.getCollection(mongoArgs.getCollectionName());
+        MongoCollection<Document> collection = getCollection(mongoArgs.getCollectionName());
         LOGGER.finer("Beginning insert");
         collection.insertMany(mongoArgs.getDocuments(), options);
         LOGGER.finer("Inserting done");
@@ -53,6 +53,10 @@ public class MongoDbConnection implements DbConnection {
 
     @Override
     public void disconnect() {
+    }
+
+    public MongoCollection<Document> getCollection(String collName) {
+        return mongoDatabase.getCollection(collName);
     }
 
     public MongoDatabase getMongoDatabase() {
