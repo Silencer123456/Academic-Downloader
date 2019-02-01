@@ -4,60 +4,30 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.MappingJsonFactory;
-import db.*;
-import db.loader.DbLoader;
 import db.loader.IDbLoadArgs;
 import db.loader.MongoDbLoadArgs;
+import fileloader.MongoFileLoader;
 import org.bson.Document;
-import utils.DirectoryHandler;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.logging.Logger;
 
 /**
  * Implementation of the loader of patent data to the database.
  */
-public class PatentLoader extends DbLoader {
+public class MongoPatentLoader implements MongoFileLoader {
 
-    private static final String COLLECTION_NAME = "test";
+    private final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
-    PatentLoader(DbConnection dbConnection) {
-        super(dbConnection);
-    }
-
-    // TODO: Maybe remove from parent and make private
     @Override
-    public void insertFromFile(File file) throws IOException {
-        LOGGER.finer("Parsing file " + file.getCanonicalPath());
+    public IDbLoadArgs load(File file) throws IOException {
         List<Document> docs = parseFileStreaming(file);
-        LOGGER.finer("Parsing done");
 
-        if (docs.isEmpty()) {
-            LOGGER.warning("List is empty, skipping...");
-            return;
-        }
-
-        IDbLoadArgs loadArgs;
-        if (dbConnection instanceof MongoDbConnection) {
-            loadArgs = new MongoDbLoadArgs(COLLECTION_NAME, docs);
-        } else {
-            LOGGER.severe("Unknown connection specified. Exiting now.");
-            throw new RuntimeException();
-        }
-
-        dbConnection.insert(loadArgs);
-    }
-
-    @Override
-    public void loadFromDirectory(String dirPath, String[] extensions) throws IOException {
-        List<File> files = DirectoryHandler.ListFilesFromDirectory(dirPath, extensions, true);
-        for (File file : files) {
-            LOGGER.info("Processing " + file.getCanonicalPath());
-            insertFromFile(file);
-        }
+        return new MongoDbLoadArgs("patent", docs); // TODO: Change collection name to variable
     }
 
     /**

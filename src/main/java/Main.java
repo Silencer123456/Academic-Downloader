@@ -3,7 +3,7 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import db.DbConnection;
-import db.loader.DbLoader;
+import db.loader.DbInserter;
 import db.MongoDbConnection;
 import log.MyLogger;
 import org.bson.Document;
@@ -75,7 +75,7 @@ public class Main {
     private void loadPatent() throws IOException {
         DbConnection mongoConnection = new MongoDbConnection();
         mongoConnection.connect();
-        DbLoader patentLoader = new PatentLoader(mongoConnection);
+        DbInserter patentLoader = new MongoPatentLoader(mongoConnection);
         patentLoader.loadFromDirectory("E:/Patent/2018", new String[]{"json"});
     }
 
@@ -94,7 +94,7 @@ public class Main {
     private void loadMag() throws IOException {
         DbConnection mongoConnection = new MongoDbConnection();
         mongoConnection.connect();
-        DbLoader magLoader = new MagLoader(mongoConnection);
+        DbInserter magLoader = new MongoMagLoader(mongoConnection);
         for (int i = 2; i < 8; i++) {
             magLoader.loadFromDirectory("E:/MAG/" + i, new String[]{"txt"});
         }

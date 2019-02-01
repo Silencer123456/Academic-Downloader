@@ -1,9 +1,9 @@
-import com.mongodb.client.MongoCollection;
 import db.DbConnection;
 import db.MongoDbConnection;
-import db.loader.DbLoader;
+import db.loader.DbInserter;
 import db.loader.IDbLoadArgs;
 import db.loader.MongoDbLoadArgs;
+import fileloader.MongoFileLoader;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
 import org.bson.Document;
@@ -19,12 +19,13 @@ import java.util.List;
  * Implementation of the loader of Microsoft Academic Graph data to the
  * database.
  */
-public class MagLoader extends DbLoader {
+public class MongoMagLoader implements MongoFileLoader {
 
     private static final String COLLECTION_NAME = "mag";
 
-    public MagLoader(DbConnection dbConnection) {
-        super(dbConnection);
+    @Override
+    public IDbLoadArgs load(File file) throws IOException {
+        return null;
     }
 
     @Override
