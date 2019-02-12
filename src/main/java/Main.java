@@ -33,9 +33,9 @@ public class Main {
     public Main() {
         //convertData();
         //extractData();
-        //loadPatent();
         try {
-            loadMag();
+            loadPatent();
+            //loadMag();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -95,7 +95,7 @@ public class Main {
         DbConnection mongoConnection = new MongoDbConnection();
         mongoConnection.connect();
         DbLoader magLoader = new MagLoader(mongoConnection);
-        for (int i = 2; i < 8; i++) {
+        for (int i = 8; i < 9; i++) {
             magLoader.loadFromDirectory("E:/MAG/" + i, new String[]{"txt"});
         }
     }

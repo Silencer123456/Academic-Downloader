@@ -4,6 +4,9 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.MappingJsonFactory;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.JsonNodeFactory;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import db.*;
 import db.loader.DbLoader;
 import db.loader.IDbLoadArgs;
@@ -81,6 +84,7 @@ public class PatentLoader extends DbLoader {
                     if (current == JsonToken.START_ARRAY) {
                         while (parser.nextToken() != JsonToken.END_ARRAY) {
                             JsonNode node = parser.readValueAsTree();
+                            preprocessNode(node);
                             documents.add(Document.parse(node.toString()));
                         }
                     }
@@ -92,5 +96,52 @@ public class PatentLoader extends DbLoader {
         }
 
         return documents;
+    }
+
+    // TODO: Read from mapping file
+    private void preprocessNode(JsonNode node) {
+        JsonNode titleNode = node.at("/us-bibliographic-data-grant/invention-title/content");
+        JsonNode abstractNode = node.at("/abstract/p/content");
+        StringBuilder abstractText = new StringBuilder();
+        if (abstractNode.isArray()) { // Sometimes the abstract is separated by new line into array. Do not know why
+            for (JsonNode curNode : abstractNode) {
+                abstractText.append(curNode.textValue());
+            }
+        } else {
+            abstractText.append(abstractNode.textValue());
+        }
+
+        JsonNode yearNode = node.at("/date-publ");
+        JsonNode authorsNode = node.at("/us-bibliographic-data-grant/us-parties/inventors/inventor");
+
+        List<String> authors = new ArrayList<>();
+        if (authorsNode.isArray()) {
+            for (JsonNode authorNode : authorsNode) {
+                JsonNode firstName = authorNode.at("/addressbook/first-name");
+                JsonNode lastName = authorNode.at("/addressbook/last-name");
+                authors.add(firstName.textValue() + " " + lastName.textValue());
+            }
+        } else {
+            JsonNode firstName = authorsNode.at("/addressbook/first-name");
+            JsonNode lastName = authorsNode.at("/addressbook/last-name");
+            authors.add(firstName.textValue() + " " + lastName.textValue());
+        }
+
+        ((ObjectNode)node).put("title", titleNode.textValue());
+
+        if (!abstractText.toString().equals("null")) {
+            ((ObjectNode)node).put("abstract", abstractText.toString());
+        }
+        ((ObjectNode)node).put("year", yearNode.toString().substring(0, 4));
+
+        //ArrayNode authorsArray = new ArrayNode(factory);
+        ArrayNode authorsArray = ((ObjectNode)node).putArray("authors");
+
+        JsonNodeFactory f = JsonNodeFactory.instance;
+        for (String authorName : authors) {
+            ObjectNode att = f.objectNode();
+            att.put("name", authorName);
+            authorsArray.add(att);
+        }
     }
 }
